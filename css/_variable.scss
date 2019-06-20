@@ -1,3 +1,19 @@
-div {
-	font-size: 30px;
+body {
+	font-size: 14px;
+	font-family: 'Nunito Sans', sans-serif;
+	color: $purpur-dark;
+}
+
+
+a {
+	font-family: 'Nunito Sans', sans-serif;
+	text-decoration: none;
+	color: $purpur-dark;
+	&:hover {
+    text-decoration: none; 
+	}	
+}
+
+ul {
+	list-style: none;
 }

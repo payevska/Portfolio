@@ -1,0 +1,18 @@
+.header-wrap {
+		display: flex;
+	&__logotype {
+		display: flex;
+	}
+	&__menu {
+	    display: flex;
+	    justify-content: space-between;
+    	text-decoration: none;
+    	@extend ul;
+    	
+		&_link-group {
+			padding: 0px 4px;
+    		border-bottom: orange solid 3px;
+    		@extend a;
+		}
+	}
+}
