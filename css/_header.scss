@@ -1,18 +1,43 @@
+header {    
+    width: 100%;
+    position: fixed;
+    z-index: 101;
+}
+
 .header-wrap {
 		display: flex;
+	    align-items: flex-end;
 	&__logotype {
-		display: flex;
+		display: flex;		
+		a {
+			@extend a;
+			font-size: 20px;
+		}				
 	}
 	&__menu {
 	    display: flex;
 	    justify-content: space-between;
     	text-decoration: none;
-    	@extend ul;
-    	
-		&_link-group {
-			padding: 0px 4px;
-    		border-bottom: orange solid 3px;
-    		@extend a;
+	    margin-bottom: 0;
+    	padding: 68px 0 0;
+    	@extend ul;    	
+		&_link-group {			
+			a {
+				padding: 0px 4px;
+	    		@extend a;				
+	    		&:hover {
+		  			border-bottom: 3px solid $yellow;
+				}
+			}
 		}
+	}
+}
+
+
+//for border in menu
+.selected {	
+	border-bottom: 3px solid $yellow;
+	a {		
+  		border-bottom: 3px solid $yellow;
 	}
 }

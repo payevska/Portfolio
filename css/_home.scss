@@ -1,0 +1,43 @@
+section-1 {
+	background-image: url('../images/home-bg.png');
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 366px;
+}
+
+.home-part-top {
+	display: flex;
+}
+
+.home-part-bottom{
+	width: 100%;
+	background-color: $purpur;
+}
+
+.bottom-bg {
+	
+	&_scroll-arrow {
+
+	}
+}
+
+
+.main {
+	&__block-topic {
+
+	}	
+	&__btn {
+		padding: 20px 69px;
+		@extend button;
+	}
+}
+
+.topik-main {
+	@extend h1;
+}
+
+.topik-text {
+	@extend h3;
+}
+

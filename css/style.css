@@ -22,27 +22,103 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   color: #312a31; }
 
-a, .header-wrap__menu_link-group {
+a, button a, .main__btn a, .header-wrap__logotype a, .header-wrap__menu_link-group a {
   font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
   text-decoration: none;
-  color: #312a31; }
-  a:hover, .header-wrap__menu_link-group:hover {
-    text-decoration: none; }
+  color: #312a31;
+  /* &:visited {
+  	color: $purpur-dark;
+  } */ }
+  a:hover {
+    text-decoration: none;
+    color: #875c78; }
+  a:active {
+    color: #312a31; }
+  a:focus {
+    color: #ebebf4; }
 
 ul, .header-wrap__menu {
   list-style: none; }
 
+h1, .topik-main {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 1.2; }
+
+h2 {
+  font-family: 'Judson', serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #431c43; }
+
+h3, .topik-text {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff; }
+
+button, .main__btn {
+  background-color: #d6af18;
+  border-width: 0;
+  border-radius: 1px; }
+  button:hover, .main__btn:hover {
+    background-color: #431c43;
+    transition: 1s; }
+    button:hover a, .main__btn:hover a {
+      color: #875c78; }
+  button a, .main__btn a, button .header-wrap__logotype a, .header-wrap__logotype button a, button .header-wrap__menu_link-group a, .header-wrap__menu_link-group button a {
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    color: #431c43; }
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 101; }
+
 .header-wrap {
-  display: flex; }
+  display: flex;
+  align-items: flex-end; }
   .header-wrap__logotype {
     display: flex; }
+    .header-wrap__logotype a {
+      font-size: 20px; }
   .header-wrap__menu {
     display: flex;
     justify-content: space-between;
-    text-decoration: none; }
-    .header-wrap__menu_link-group {
-      padding: 0px 4px;
-      border-bottom: orange solid 3px; }
+    text-decoration: none;
+    margin-bottom: 0;
+    padding: 68px 0 0; }
+    .header-wrap__menu_link-group a {
+      padding: 0px 4px; }
+      .header-wrap__menu_link-group a:hover {
+        border-bottom: 3px solid #d6af18; }
+
+.selected {
+  border-bottom: 3px solid #d6af18; }
+  .selected a {
+    border-bottom: 3px solid #d6af18; }
+
+section-1 {
+  background-image: url("../images/home-bg.png");
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 366px; }
+
+.home-part-top {
+  display: flex; }
+
+.home-part-bottom {
+  width: 100%;
+  background-color: #431c43; }
+
+.main__btn {
+  padding: 20px 69px; }
 
 /* -------- fonts -------- */
 /* -------- colors -------- */

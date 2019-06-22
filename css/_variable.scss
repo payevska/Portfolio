@@ -6,14 +6,75 @@ body {
 
 
 a {
-	font-family: 'Nunito Sans', sans-serif;
+	font: {
+		family: 'Nunito Sans', sans-serif;
+		size: 16px;
+		weight: $bold;
+	}	
 	text-decoration: none;
 	color: $purpur-dark;
 	&:hover {
-    text-decoration: none; 
+	    text-decoration: none;
+	    color: $purpur-pink; 
+	}
+	/* &:visited {
+		color: $purpur-dark;
+	} */
+	&:active {
+		color: $purpur-dark;
+	}
+	&:focus {
+		color: $purpur-extra-light;
 	}	
 }
 
 ul {
 	list-style: none;
+}
+
+h1 {
+	font: {
+			family: 'Archivo Narrow', sans-serif;
+			size: 60px;
+			weight: $light;
+	}
+	color: $white;
+	line-height: 1.2;	
+}
+
+h2 {
+	font: {
+			family: 'Judson', serif;
+			size: 40px;
+			weight: $regular;
+	}
+	color: $purpur;	
+}
+
+h3 {
+	font: {
+			family: 'Nunito Sans', sans-serif;
+			size: 24px;
+			weight: $light;
+	}
+	color: $white;	
+}
+
+button {
+	background-color: $yellow;
+	border-width: 0;
+	border-radius: 1px;
+	&:hover {
+		background-color: $purpur;
+		transition: 1s;
+		a {
+		color: $purpur-pink;
+		}		
+	}
+	a {
+		@extend a;
+		font-family: 'Archivo Narrow', sans-serif;
+		text-transform: uppercase;	
+		color: $purpur;
+    }
 }
