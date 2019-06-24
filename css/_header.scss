@@ -44,71 +44,84 @@ header {
 	}
 }
 
-/* gambyrger-menu start*/
-.byrger-menu {    
+/* byrger-menu start*/
+.byrger-menu {
+	display: flex;
+	justify-content: flex-end;  
+	text-align: right;
+  	padding-top: 9px;  
 	&__byrger-icon {
-	   	visibility: hidden;
-	   	width: 45px;
-   height: 35px;	   	
-	   	cursor: pointer;
-	   	display: flex;
-    	flex-direction: column;
-        padding-bottom: 6px;
-		span {
+	   	/* visibility: hidden; */
+	   	display: none;
+   		width: 24px;
+	    height: 25px;
+	    position: relative;
+	    cursor: pointer;
+		&_line {
 		  	display: block;		  	
-		  	height: 3px;
-		  	width: 100%;
+		  	position: absolute;
+  			height: 3px;
+  			width: 100%;
 		  	background: $purpur-dark;		  	
-		  	transform: rotate(0deg);
-		  	transition: .25s ease-in-out;
-		  	&:nth-child(1) {
-                margin-top: 0;
-            }
-            &:nth-child(3), &:nth-child(2) {
-  				margin-top: 3px;
-			}
-			&:nth-child(4) {
-  				margin-top: 3px;
- 			}
-
-		}
+		  	border-radius: 6px;
+  			opacity: 1;
+  			left: 0;
+  			transform: rotate(0deg);
+  			transition: .25s ease-in-out;
+  		} 		
 	}
+}
+
+.line-1 {
+    top: 0px;
+}
+.line-3, .line-2 {
+	top: 7px;
+}
+.line-4 {
+	top: 14px;
 }  
 /* byrger-menu finish*/
 
 /* gambyrger-menu start*/
+.gambyrger {
+	display: flex;
+    flex-direction: column;
+}
+
 .gambyrger-menu {
+	display: flex;
+    justify-content: flex-end;
 	background-color: $purpur-dark;
-	&__gambyrger-list {
-    display: flex;
-    flex-direction: column;    
-    @extend ul;    	
+	&__gambyrger-list {        
+    @extend ul;
+    padding-left: 0;    	
 		&_link-group {			
 			a {
 				padding: 0px 4px;
 	    		@extend a;
-	    		color: $purpur-light;				
+	    		color: $purpur-extra-light;				
 	    		&:hover {
 		  			border-bottom: 3px solid $yellow;
-		  			color: $purpur-extra-light;
+		  			color: $purpur-light;
 				}
 			}
 		}
     }
 }
 
-.byrger-menu.byrger-menu_state_open .byrger-menu__byrger-icon span:nth-child(1) {
+.byrger-menu.byrger-menu_state_open .byrger-menu__byrger-icon .line-1 {
   top: 18px;
   width: 0%;
   left: 50%;
 }
-.byrger-menu.byrger-menu_state_open .byrger-menu__byrger-icon span:nth-child(2) {
+.byrger-menu.byrger-menu_state_open .byrger-menu__byrger-icon .line-2 {
   transform: rotate(45deg);
 }
-.byrger-menu.byrger-menu_state_open  .byrger-menu__byrger-icon span:nth-child(3) {
+.byrger-menu.byrger-menu_state_open  .byrger-menu__byrger-icon .line-3 {
   transform: rotate(-45deg);
 }
-.byrger-menu.byrger-menu_state_open  .byrger-menu__byrger-icon span:nth-child(4) {
+.byrger-menu.byrger-menu_state_open  .byrger-menu__byrger-icon .line-4 {
   top: 18px;
   width: 0%;
   left: 50%;
