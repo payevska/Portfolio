@@ -4,6 +4,10 @@ body {
 	color: $purpur-dark;
 }
 
+.container {
+	padding: 0;
+}
+
 
 a {
 	font: {
@@ -39,7 +43,8 @@ h1 {
 			weight: $light;
 	}
 	color: $white;
-	line-height: 1.2;	
+	line-height: 1.2;
+    margin-bottom: 0;
 }
 
 h2 {
