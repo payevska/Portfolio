@@ -5,6 +5,11 @@ header {
 }
 
 .header-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-big {
 	display: flex;
     align-items: flex-end;
     padding: 0;
@@ -17,11 +22,12 @@ header {
 		}				
 	}
 	&__menu {
+		width: 49%;
 	    display: flex;
 	    justify-content: space-between;
     	text-decoration: none;
 	    margin-bottom: 2px;
-    	padding: 66px 0 0 134px;
+    	padding: 66px 0 0 0;
     	@extend ul;    	
 		&_link-group {			
 			a {
@@ -45,6 +51,12 @@ header {
 }
 
 /* byrger-menu start*/
+.byrger{
+	display: flex;
+    justify-content: flex-end;
+    padding-right: 0;
+}
+
 .byrger-menu {
 	display: flex;
 	justify-content: flex-end;  
@@ -90,12 +102,16 @@ header {
 }
 
 .gambyrger-menu {
+
+	
 	display: flex;
     justify-content: flex-end;
 	background-color: $purpur-dark;
-	&__gambyrger-list {        
-    @extend ul;
-    padding-left: 0;    	
+	&__gambyrger-list {
+		display: none;
+		height: 100vh;        
+	    @extend ul;
+	    padding-left: 0;    	
 		&_link-group {			
 			a {
 				padding: 0px 4px;
@@ -108,6 +124,14 @@ header {
 			}
 		}
     }
+}
+
+.popap {
+    padding-top: 20px;
+}
+
+.pop {
+	margin-bottom: 7px;
 }
 
 .byrger-menu.byrger-menu_state_open .byrger-menu__byrger-icon .line-1 {
@@ -130,3 +154,5 @@ header {
   display: block;  
 }
 /* gambyrger-menu finish*/
+
+

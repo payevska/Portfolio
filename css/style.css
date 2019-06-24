@@ -25,7 +25,7 @@ body {
 .container {
   padding: 0; }
 
-a, button a, .main__btn a, .header-wrap__logotype a, .header-wrap__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i {
+a, button a, .main__btn a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -42,7 +42,7 @@ a, button a, .main__btn a, .header-wrap__logotype a, .header-wrap__menu_link-gro
   a:focus, i:focus {
     color: #ebebf4; }
 
-ul, .header-wrap__menu, .gambyrger-menu__gambyrger-list {
+ul, .header-big__menu, .gambyrger-menu__gambyrger-list {
   list-style: none; }
 
 h1, .topik-main {
@@ -74,7 +74,7 @@ button, .main__btn {
     transition: 1s; }
     button:hover a, .main__btn:hover a, button:hover i, .main__btn:hover i {
       color: #875c78; }
-  button a, .main__btn a, button .header-wrap__logotype a, .header-wrap__logotype button a, button .header-wrap__menu_link-group a, .header-wrap__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i {
+  button a, .main__btn a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i {
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
     color: #431c43; }
@@ -86,22 +86,27 @@ header {
 
 .header-wrap {
   display: flex;
+  flex-direction: column; }
+
+.header-big {
+  display: flex;
   align-items: flex-end;
   padding: 0; }
-  .header-wrap__logotype {
+  .header-big__logotype {
     display: flex;
     padding: 0; }
-    .header-wrap__logotype a, .header-wrap__logotype i {
+    .header-big__logotype a, .header-big__logotype i {
       font-size: 20px; }
-  .header-wrap__menu {
+  .header-big__menu {
+    width: 49%;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
     margin-bottom: 2px;
-    padding: 66px 0 0 134px; }
-    .header-wrap__menu_link-group a, .header-wrap__menu_link-group i {
+    padding: 66px 0 0 0; }
+    .header-big__menu_link-group a, .header-big__menu_link-group i {
       padding: 0px 4px; }
-      .header-wrap__menu_link-group a:hover, .header-wrap__menu_link-group i:hover {
+      .header-big__menu_link-group a:hover, .header-big__menu_link-group i:hover {
         border-bottom: 3px solid #d6af18; }
 
 /* for border in menu */
@@ -111,6 +116,11 @@ header {
     border-bottom: 3px solid #d6af18; }
 
 /* byrger-menu start*/
+.byrger {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0; }
+
 .byrger-menu {
   display: flex;
   justify-content: flex-end;
@@ -155,6 +165,8 @@ header {
   justify-content: flex-end;
   background-color: #312a31; }
   .gambyrger-menu__gambyrger-list {
+    display: none;
+    height: 100vh;
     padding-left: 0; }
     .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group i {
       padding: 0px 4px;
@@ -162,6 +174,12 @@ header {
       .gambyrger-menu__gambyrger-list_link-group a:hover, .gambyrger-menu__gambyrger-list_link-group i:hover {
         border-bottom: 3px solid #d6af18;
         color: #8e86ac; }
+
+.popap {
+  padding-top: 20px; }
+
+.pop {
+  margin-bottom: 7px; }
 
 .byrger-menu.byrger-menu_state_open .byrger-menu__byrger-icon .line-1 {
   top: 18px;
