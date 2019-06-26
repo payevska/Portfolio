@@ -1,5 +1,5 @@
 body {
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'Nunito Sans', sans-serif;
 	color: $purpur-dark;
 }
@@ -16,7 +16,7 @@ a {
 		weight: $bold;
 	}	
 	text-decoration: none;
-	color: $purpur-dark;
+	color: $white;
 	&:hover {
 	    text-decoration: none;
 	    color: $purpur-pink; 
@@ -53,6 +53,7 @@ h2 {
 			size: 40px;
 			weight: $regular;
 	}
+	line-height: 1.1;
 	color: $purpur;	
 }
 
@@ -82,4 +83,10 @@ button {
 		text-transform: uppercase;	
 		color: $purpur;
     }
+}
+
+span {
+	@extend a;
+	color: $purpur-grey;
+	cursor: pointer;
 }
