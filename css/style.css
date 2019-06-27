@@ -72,7 +72,7 @@ button, .main__btn, .about-block-right__button-about_btn {
   border-radius: 1px; }
   button:hover, .main__btn:hover, .about-block-right__button-about_btn:hover {
     background-color: #431c43;
-    transition: 1s; }
+    transition: 2s; }
     button:hover a, .main__btn:hover a, .about-block-right__button-about_btn:hover a, button:hover span, .main__btn:hover span, .about-block-right__button-about_btn:hover span, button:hover i, .main__btn:hover i, .about-block-right__button-about_btn:hover i {
       color: #875c78; }
   button a, .main__btn a, .about-block-right__button-about_btn a, button span, .main__btn span, .about-block-right__button-about_btn span, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i, .about-block-right__button-about_btn i {
@@ -303,13 +303,34 @@ section-2 {
   display: flex;
   margin-bottom: 149px; }
 
+.fon {
+  background-color: #ebebf4;
+  position: absolute;
+  z-index: -1;
+  width: 35%;
+  height: 100%;
+  left: 0; }
+
 .about-wrap {
   display: flex;
   padding: 0; }
 
 .about-block-left {
+  display: flex;
+  justify-content: flex-start;
   padding: 0;
   margin-top: 120px; }
+  .about-block-left__foto-portfolio {
+    width: 68%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; }
+    .about-block-left__foto-portfolio_fotoMaket {
+      min-width: 100%;
+      min-height: 100%;
+      position: absolute;
+      display: flex; }
 
 .about-block-right {
   display: flex;
@@ -362,14 +383,6 @@ section-2 {
   width: 100%;
   height: 54%;
   border: 2px solid #5d565d; }
-
-.fon {
-  background-color: #ebebf4;
-  position: absolute;
-  z-index: -1;
-  width: 35%;
-  height: 100%;
-  left: 0; }
 
 /* -------- fonts -------- */
 /* -------- colors -------- */
