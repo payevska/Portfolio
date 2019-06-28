@@ -1,27 +1,30 @@
 section-3 {
-
+	display: flex;
 } 
 
 .portfolio-wrap {
 	display: flex;
     padding: 0;
+    margin-top: 178px;
+    margin-bottom: 166px;
 }
 
 .portfolio-left {
 	padding-right: 0;
-    padding-left: 0;
-    
+    padding-left: 0;    
 	&__block-portfolio {
 	    width: 169%;
 	    margin-left: -215px;
+        padding-top: 210px;
 	    padding-left: 75px;
 	    padding-right: 75px;
+        padding-bottom: 179px;
 		background-color: #d6af18;
-		&_topic {
-
+		&_topic {			
+    		padding-bottom: 68px;
 		}
 		&_text-portfolio {
-
+		    padding-bottom: 35px;
 		}
 		&_link-portfolio {
 
@@ -35,22 +38,40 @@ section-3 {
     padding-right: 0;
     margin-left: 52px;
 	&__projeсts-portfolio {
-
+		display: flex;
+	    padding-left: 0;
+	    padding-right: 0;
+        
 	}
 }
 
-.project {
-
+.project-1 {
+	margin-right: 67px;
 }
 
+.project-2 {
+	margin-right: 23px;
+}
 
+.project-4, .project-5 {
+	display: none;
+}
 
 .project-box {
-	    padding: 187px 0;
+    padding: 187px 0;
     width: 25%;
-	background-color: #d6af18;
+    background-color: #d6af18;
+    margin-right: -153px;
 }
 
 .fotoProject {
 
+}
+
+.three-line {
+	display: none;
+}
+
+.two-line {
+	margin-top: 42px;
 }
