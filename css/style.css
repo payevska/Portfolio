@@ -400,6 +400,30 @@ section-2 {
     font-weight: 400;
     color: #ffffff; }
 
+.portfolio-wrap {
+  display: flex;
+  padding: 0; }
+
+.portfolio-left {
+  padding-right: 0;
+  padding-left: 0; }
+  .portfolio-left__block-portfolio {
+    width: 169%;
+    margin-left: -215px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #d6af18; }
+
+.portfolio-right {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 52px; }
+
+.project-box {
+  padding: 187px 0;
+  width: 25%;
+  background-color: #d6af18; }
+
 /* -------- fonts -------- */
 /* -------- colors -------- */
 /* -------- variables -------- */

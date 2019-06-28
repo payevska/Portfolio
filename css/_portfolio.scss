@@ -1,0 +1,56 @@
+section-3 {
+
+} 
+
+.portfolio-wrap {
+	display: flex;
+    padding: 0;
+}
+
+.portfolio-left {
+	padding-right: 0;
+    padding-left: 0;
+    
+	&__block-portfolio {
+	    width: 169%;
+	    margin-left: -215px;
+	    padding-left: 75px;
+	    padding-right: 75px;
+		background-color: #d6af18;
+		&_topic {
+
+		}
+		&_text-portfolio {
+
+		}
+		&_link-portfolio {
+
+		}
+	}
+
+}
+
+.portfolio-right {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 52px;
+	&__projeсts-portfolio {
+
+	}
+}
+
+.project {
+
+}
+
+
+
+.project-box {
+	    padding: 187px 0;
+    width: 25%;
+	background-color: #d6af18;
+}
+
+.fotoProject {
+
+}
