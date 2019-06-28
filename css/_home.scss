@@ -47,13 +47,6 @@ section-1 {
 	@extend h3;
 }
 
-/* 
-.arrow-top {
-	margin: 21px 60px 0 60px;
-	border: 17px solid transparent;
-    border-top: 16px solid $yellow;
-} */
-
 /* --------- scroll mouse start -------- */
 .bottom-bg {
 	display: flex;
@@ -85,7 +78,7 @@ i {
 #scroll-home {
     display: flex;
     flex-direction: column;   
-	margin: 25px 0;
+	margin: 20px 0 30px;
   }
 
 #mice span {  

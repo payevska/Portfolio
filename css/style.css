@@ -53,7 +53,7 @@ h1, .topik-main {
   line-height: 1.2;
   margin-bottom: 0; }
 
-h2, .about-block-right__title-about, .about-block-right__subtitle-about {
+h2, .about-block-right__title-about, .about-block-right__subtitle-about, .block-bottom__topic-skills {
   font-family: 'Judson', serif;
   font-size: 40px;
   font-weight: 400;
@@ -235,12 +235,6 @@ section-1 {
   padding-top: 18px;
   margin-bottom: 71px; }
 
-/* 
-.arrow-top {
-	margin: 21px 60px 0 60px;
-	border: 17px solid transparent;
-    border-top: 16px solid $yellow;
-} */
 /* --------- scroll mouse start -------- */
 .bottom-bg {
   display: flex; }
@@ -264,7 +258,7 @@ i {
 #scroll-home {
   display: flex;
   flex-direction: column;
-  margin: 25px 0; }
+  margin: 20px 0 30px; }
 
 #mice span {
   width: 21px;
@@ -299,9 +293,11 @@ i {
 
 /* --------- scroll mouse finish -------- */
 section-2 {
+  background: url("../images/skills-bg.png") no-repeat bottom;
   width: 100%;
+  height: auto;
   display: flex;
-  margin-bottom: 149px; }
+  background-size: contain; }
 
 .fon {
   background-color: #ebebf4;
@@ -313,7 +309,8 @@ section-2 {
 
 .about-wrap {
   display: flex;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 149px; }
 
 .about-block-left {
   display: flex;
@@ -383,6 +380,25 @@ section-2 {
   width: 100%;
   height: 54%;
   border: 2px solid #5d565d; }
+
+.block-bottom {
+  display: flex;
+  flex-direction: column; }
+  .block-bottom__topic-skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 52px;
+    color: #ffffff;
+    font-size: 60px; }
+  .block-bottom__skills {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #ffffff; }
 
 /* -------- fonts -------- */
 /* -------- colors -------- */

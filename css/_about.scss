@@ -1,7 +1,13 @@
 section-2 {
+	
+    
+    
+    background: url('../images/skills-bg.png') no-repeat bottom;
 	width: 100%;
-    display: flex;
-    margin-bottom: 149px;
+	height: auto;
+	display: flex;
+	
+	background-size: contain;
 	
 }
 
@@ -16,7 +22,8 @@ section-2 {
 
 .about-wrap {
 	display: flex;
-	padding: 0;	    
+	padding: 0;
+	margin-bottom: 149px;	    
 }
 
 .about-block-left {
@@ -107,5 +114,32 @@ section-2 {
     width: 100%;
     height: 54%;
     border: 2px solid $purpur-grey;   
+}
+
+.block-bottom {
+	
+	display: flex;
+	flex-direction: column;
+	
+	&__topic-skills {
+		    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 52px;
+		@extend h2;
+		color: $white;
+		font-size: 60px;
+	}
+	&__skills {
+		display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+		font: {
+			family: 'Archivo Narrow', sans-serif;
+			size: 34px;
+			weight: $regular;
+		}		
+		color: $white;
+	}
 }
 
