@@ -90,3 +90,12 @@ span {
 	color: $purpur-grey;
 	cursor: pointer;
 }
+
+.fon {
+	background-color: $purpur-extra-light;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+        
+}

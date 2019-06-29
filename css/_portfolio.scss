@@ -46,7 +46,7 @@ section-3 {
 }
 
 .project-1 {
-	margin-right: 67px;
+	
 }
 
 .project-2 {
@@ -58,10 +58,11 @@ section-3 {
 }
 
 .project-box {
-    padding: 187px 0;
-    width: 25%;
+    width: 100vw;
+    height: 41vh;
     background-color: #d6af18;
-    margin-right: -153px;
+    margin-right: -154px;
+    margin-left: 67px;
 }
 
 .fotoProject {
@@ -74,4 +75,12 @@ section-3 {
 
 .two-line {
 	margin-top: 42px;
+}
+
+.fon-portfolio {
+	@extend .fon;
+    width: 85%;          
+    right: 0;
+    height: 79vh;
+    margin-top: 277px;    
 }

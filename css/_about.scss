@@ -1,22 +1,15 @@
-section-2 {
-	
-    
-    
+section-2 {    
     background: url('../images/skills-bg.png') no-repeat bottom;
 	width: 100%;
 	height: auto;
-	display: flex;
-	
-	background-size: contain;
-	
+	display: flex;	
+	background-size: contain;	
 }
 
-.fon {
-	background-color: $purpur-extra-light;
-    position: absolute;
-    z-index: -1;
+.fon-about {
+	@extend .fon;
     width: 35%;
-    height: 100%;
+    
     left: 0;    
 }
 
@@ -91,11 +84,9 @@ section-2 {
 				&:hover {
 					color: $purpur-pink;
 				}
-			}
-			
+			}			
 		}
 	}
-
 }    
 
 .topic {
@@ -116,24 +107,22 @@ section-2 {
     border: 2px solid $purpur-grey;   
 }
 
-.block-bottom {
-	
+.block-bottom {	
 	display: flex;
-	flex-direction: column;
-	
+	flex-direction: column;	
 	&__topic-skills {
-		    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 52px;
+	    display: flex;
+	    justify-content: center;
+	    margin-top: 60px;
+	    margin-bottom: 52px;
 		@extend h2;
 		color: $white;
 		font-size: 60px;
 	}
 	&__skills {
 		display: flex;
-    justify-content: space-between;
-    margin-bottom: 72px;
+	    justify-content: space-between;
+	    margin-bottom: 72px;
 		font: {
 			family: 'Archivo Narrow', sans-serif;
 			size: 34px;
