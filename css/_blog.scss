@@ -19,9 +19,55 @@ section-4 {
 
 .myBlog-wrap {
 	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+    padding-right: 0;
 }
 
 .block-blog {
 	display: flex;
     flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    &__img-blog {
+
+    }
+    &__info-blog {
+	    display: flex;
+    	flex-direction: column;
+    	padding: 28px 20px 74px 20px;
+    	&_topic-info {
+    		justify-content: center;
+    		display: flex;
+    		margin-bottom: 50px;    		
+			font: {
+				family: 'Archivo Narrow', sans-serif;
+				size: 22px;
+				weight: $regular;
+			}
+			color: $purpur;	
+    	}
+    	&_text-info {
+			&_span-blog {
+				display: none;
+			}
+    	}
+    	&_link-blog {
+			color: $purpur;
+			margin-top: 16px;
+    	}
+    }
+}
+
+.blog-left {
+    margin-left: -120px;
+    margin-right: 15px;
+}
+.blog-center {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.blog-right {
+    margin-right: -60px;
+    margin-left: 15px;
 }

@@ -85,12 +85,6 @@ button {
     }
 }
 
-span {
-	@extend a;
-	color: $purpur-grey;
-	cursor: pointer;
-}
-
 .fon {
 	background-color: $purpur-extra-light;
     position: absolute;

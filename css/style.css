@@ -26,7 +26,7 @@ body {
 .container {
   padding: 0; }
 
-a, button a, .main__btn a, .about-block-right__button-about_btn a, span, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i {
+a, button a, .main__btn a, .about-block-right__button-about_btn a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i, .about-block-right__text-about_span-about {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -35,12 +35,12 @@ a, button a, .main__btn a, .about-block-right__button-about_btn a, span, .header
   /* &:visited {
   	color: $purpur-dark;
   } */ }
-  a:hover, span:hover, i:hover {
+  a:hover, i:hover, .about-block-right__text-about_span-about:hover {
     text-decoration: none;
     color: #875c78; }
-  a:active, span:active, i:active {
+  a:active, i:active, .about-block-right__text-about_span-about:active {
     color: #312a31; }
-  a:focus, span:focus, i:focus {
+  a:focus, i:focus, .about-block-right__text-about_span-about:focus {
     color: #ebebf4; }
 
 ul, .header-big__menu, .gambyrger-menu__gambyrger-list {
@@ -74,16 +74,12 @@ button, .main__btn, .about-block-right__button-about_btn {
   button:hover, .main__btn:hover, .about-block-right__button-about_btn:hover {
     background-color: #431c43;
     transition: 2s; }
-    button:hover a, .main__btn:hover a, .about-block-right__button-about_btn:hover a, button:hover span, .main__btn:hover span, .about-block-right__button-about_btn:hover span, button:hover i, .main__btn:hover i, .about-block-right__button-about_btn:hover i {
+    button:hover a, .main__btn:hover a, .about-block-right__button-about_btn:hover a, button:hover i, .main__btn:hover i, .about-block-right__button-about_btn:hover i, button:hover .about-block-right__text-about_span-about, .main__btn:hover .about-block-right__text-about_span-about, .about-block-right__button-about_btn:hover .about-block-right__text-about_span-about {
       color: #875c78; }
-  button a, .main__btn a, .about-block-right__button-about_btn a, button span, .main__btn span, .about-block-right__button-about_btn span, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i, .about-block-right__button-about_btn i {
+  button a, .main__btn a, .about-block-right__button-about_btn a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i, .about-block-right__button-about_btn i, button .about-block-right__text-about_span-about, .main__btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .about-block-right__text-about_span-about {
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
     color: #431c43; }
-
-span {
-  color: #5d565d;
-  cursor: pointer; }
 
 .fon, .fon-about, .fon-portfolio {
   background-color: #ebebf4;
@@ -111,7 +107,7 @@ header {
   .header-big__logotype {
     display: flex;
     padding: 0; }
-    .header-big__logotype span, .header-big__logotype a, .header-big__logotype i {
+    .header-big__logotype a, .header-big__logotype i, .header-big__logotype .about-block-right__text-about_span-about {
       font-size: 20px; }
   .header-big__menu {
     width: 49%;
@@ -120,15 +116,15 @@ header {
     text-decoration: none;
     margin-bottom: 2px;
     padding: 66px 0 0 0; }
-    .header-big__menu_link-group span, .header-big__menu_link-group a, .header-big__menu_link-group i {
+    .header-big__menu_link-group a, .header-big__menu_link-group i, .header-big__menu_link-group .about-block-right__text-about_span-about {
       padding: 0px 4px; }
-      .header-big__menu_link-group span:hover, .header-big__menu_link-group a:hover, .header-big__menu_link-group i:hover {
+      .header-big__menu_link-group a:hover, .header-big__menu_link-group i:hover, .header-big__menu_link-group .about-block-right__text-about_span-about:hover {
         border-bottom: 3px solid #d6af18; }
 
 /* for border in menu */
 .selected {
   border-bottom: 3px solid #d6af18; }
-  .selected a, .selected span, .selected i {
+  .selected a, .selected i, .selected .about-block-right__text-about_span-about {
     border-bottom: 3px solid #d6af18; }
 
 /* byrger-menu start*/
@@ -184,10 +180,10 @@ header {
     display: none;
     height: 100vh;
     padding-left: 0; }
-    .gambyrger-menu__gambyrger-list_link-group span, .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group i {
+    .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group i, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about {
       padding: 0px 4px;
       color: #ebebf4; }
-      .gambyrger-menu__gambyrger-list_link-group span:hover, .gambyrger-menu__gambyrger-list_link-group a:hover, .gambyrger-menu__gambyrger-list_link-group i:hover {
+      .gambyrger-menu__gambyrger-list_link-group a:hover, .gambyrger-menu__gambyrger-list_link-group i:hover, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about:hover {
         border-bottom: 3px solid #d6af18;
         color: #8e86ac; }
 
@@ -343,6 +339,9 @@ section-2 {
     margin-bottom: 52px; }
   .about-block-right__text-about {
     margin-bottom: 58px; }
+    .about-block-right__text-about_span-about {
+      color: #5d565d;
+      cursor: pointer; }
   .about-block-right__subtitle-about {
     display: flex;
     justify-content: center;
@@ -364,9 +363,9 @@ section-2 {
       .about-block-right__button-about_btn:hover {
         background-color: #ffffff;
         border: 1px solid #431c43; }
-      .about-block-right__button-about_btn a, .about-block-right__button-about_btn span, .about-block-right__button-about_btn i {
+      .about-block-right__button-about_btn a, .about-block-right__button-about_btn i, .about-block-right__button-about_btn .about-block-right__text-about_span-about {
         color: #ffffff; }
-        .about-block-right__button-about_btn a:hover, .about-block-right__button-about_btn span:hover, .about-block-right__button-about_btn i:hover {
+        .about-block-right__button-about_btn a:hover, .about-block-right__button-about_btn i:hover, .about-block-right__button-about_btn .about-block-right__text-about_span-about:hover {
           color: #875c78; }
 
 .topic {
@@ -477,11 +476,45 @@ section-4 {
     text-align: center; }
 
 .myBlog-wrap {
-  display: flex; }
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 0; }
 
 .block-blog {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0; }
+  .block-blog__info-blog {
+    display: flex;
+    flex-direction: column;
+    padding: 28px 20px 74px 20px; }
+    .block-blog__info-blog_topic-info {
+      justify-content: center;
+      display: flex;
+      margin-bottom: 50px;
+      font-family: 'Archivo Narrow', sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: #431c43; }
+    .block-blog__info-blog_text-info_span-blog {
+      display: none; }
+    .block-blog__info-blog_link-blog {
+      color: #431c43;
+      margin-top: 16px; }
+
+.blog-left {
+  margin-left: -120px;
+  margin-right: 15px; }
+
+.blog-center {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.blog-right {
+  margin-right: -60px;
+  margin-left: 15px; }
 
 /* -------- fonts -------- */
 /* -------- colors -------- */

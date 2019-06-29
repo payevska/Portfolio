@@ -8,8 +8,7 @@ section-2 {
 
 .fon-about {
 	@extend .fon;
-    width: 35%;
-    
+    width: 35%;        
     left: 0;    
 }
 
@@ -49,9 +48,16 @@ section-2 {
 		margin-bottom: 52px;
 		@extend h2;
 	}
+
 	&__text-about {
 		margin-bottom: 58px;
+		&_span-about {			
+			@extend a;
+			color: $purpur-grey;
+			cursor: pointer;
+		}
 	}
+
 	&__subtitle-about {
 		display: flex;
     	justify-content: center;
