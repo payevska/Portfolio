@@ -54,7 +54,7 @@ h1, .topic-main {
   line-height: 1.2;
   margin-bottom: 0; }
 
-h2, .about-block-right__title-about, .about-block-right__subtitle-about, .block-bottom__topic-skills {
+h2, .about-block-right__title-about, .about-block-right__subtitle-about, .block-bottom__topic-skills, .myBlog-title__topic-blog {
   font-family: 'Judson', serif;
   font-size: 40px;
   font-weight: 400;
@@ -462,6 +462,26 @@ section-3 {
   right: 0;
   height: 79vh;
   margin-top: 277px; }
+
+section-4 {
+  display: flex; }
+
+.myBlog-title {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .myBlog-title__topic-text {
+    font-size: 25px;
+    width: 40%;
+    text-align: center; }
+
+.myBlog-wrap {
+  display: flex; }
+
+.block-blog {
+  display: flex;
+  flex-direction: column; }
 
 /* -------- fonts -------- */
 /* -------- colors -------- */

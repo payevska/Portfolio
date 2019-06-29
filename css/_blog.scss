@@ -1,0 +1,27 @@
+section-4 {
+	display: flex;
+}
+
+.myBlog-title {
+	width: 60%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__topic-blog {
+		@extend h2;
+    }
+    &__topic-text {
+		font-size: 25px;
+	    width: 40%;
+    	text-align: center;
+    }
+}
+
+.myBlog-wrap {
+	display: flex;
+}
+
+.block-blog {
+	display: flex;
+    flex-direction: column;
+}
