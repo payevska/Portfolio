@@ -46,7 +46,7 @@ a, button a, .main__btn a, .about-block-right__button-about_btn a, span, .header
 ul, .header-big__menu, .gambyrger-menu__gambyrger-list {
   list-style: none; }
 
-h1, .topik-main {
+h1, .topic-main {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 60px;
   font-weight: 300;
@@ -61,7 +61,7 @@ h2, .about-block-right__title-about, .about-block-right__subtitle-about, .block-
   line-height: 1.1;
   color: #431c43; }
 
-h3, .topik-text {
+h3, .topic-text {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 24px;
   font-weight: 300;
@@ -239,7 +239,7 @@ section-1 {
   .main__btn {
     padding: 20px 69px; }
 
-.topik-text {
+.topic-text {
   padding-top: 18px;
   margin-bottom: 71px; }
 
@@ -470,6 +470,7 @@ section-3 {
 /* -------- home -------- */
 /* -------- about -------- */
 /* -------- portfolio -------- */
+/* -------- blog -------- */
 /* -------- footer -------- */
 
 /*# sourceMappingURL=style.css.map */
