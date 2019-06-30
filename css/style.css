@@ -26,7 +26,7 @@ body {
 .container {
   padding: 0; }
 
-a, button a, .main__btn a, .about-block-right__button-about_btn a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i, .about-block-right__text-about_span-about {
+a, button a, .main__btn a, .about-block-right__button-about_btn a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i, .about-block-right__text-about_span-about, .block-blog__info-blog_link-blog {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -35,12 +35,12 @@ a, button a, .main__btn a, .about-block-right__button-about_btn a, .header-big__
   /* &:visited {
   	color: $purpur-dark;
   } */ }
-  a:hover, i:hover, .about-block-right__text-about_span-about:hover {
+  a:hover, i:hover, .about-block-right__text-about_span-about:hover, .block-blog__info-blog_link-blog:hover {
     text-decoration: none;
     color: #875c78; }
-  a:active, i:active, .about-block-right__text-about_span-about:active {
+  a:active, i:active, .about-block-right__text-about_span-about:active, .block-blog__info-blog_link-blog:active {
     color: #312a31; }
-  a:focus, i:focus, .about-block-right__text-about_span-about:focus {
+  a:focus, i:focus, .about-block-right__text-about_span-about:focus, .block-blog__info-blog_link-blog:focus {
     color: #ebebf4; }
 
 ul, .header-big__menu, .gambyrger-menu__gambyrger-list {
@@ -49,7 +49,7 @@ ul, .header-big__menu, .gambyrger-menu__gambyrger-list {
 h1, .topic-main {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 60px;
-  font-weight: 300;
+  font-weight: #fafafd;
   color: #ffffff;
   line-height: 1.2;
   margin-bottom: 0; }
@@ -64,7 +64,7 @@ h2, .about-block-right__title-about, .about-block-right__subtitle-about, .block-
 h3, .topic-text {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: #fafafd;
   color: #ffffff; }
 
 button, .main__btn, .about-block-right__button-about_btn {
@@ -74,14 +74,14 @@ button, .main__btn, .about-block-right__button-about_btn {
   button:hover, .main__btn:hover, .about-block-right__button-about_btn:hover {
     background-color: #431c43;
     transition: 2s; }
-    button:hover a, .main__btn:hover a, .about-block-right__button-about_btn:hover a, button:hover i, .main__btn:hover i, .about-block-right__button-about_btn:hover i, button:hover .about-block-right__text-about_span-about, .main__btn:hover .about-block-right__text-about_span-about, .about-block-right__button-about_btn:hover .about-block-right__text-about_span-about {
+    button:hover a, .main__btn:hover a, .about-block-right__button-about_btn:hover a, button:hover i, .main__btn:hover i, .about-block-right__button-about_btn:hover i, button:hover .about-block-right__text-about_span-about, .main__btn:hover .about-block-right__text-about_span-about, .about-block-right__button-about_btn:hover .about-block-right__text-about_span-about, button:hover .block-blog__info-blog_link-blog, .main__btn:hover .block-blog__info-blog_link-blog, .about-block-right__button-about_btn:hover .block-blog__info-blog_link-blog {
       color: #875c78; }
-  button a, .main__btn a, .about-block-right__button-about_btn a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i, .about-block-right__button-about_btn i, button .about-block-right__text-about_span-about, .main__btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .about-block-right__text-about_span-about {
+  button a, .main__btn a, .about-block-right__button-about_btn a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i, .about-block-right__button-about_btn i, button .about-block-right__text-about_span-about, .main__btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .about-block-right__text-about_span-about, button .block-blog__info-blog_link-blog, .main__btn .block-blog__info-blog_link-blog, .about-block-right__button-about_btn .block-blog__info-blog_link-blog {
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
     color: #431c43; }
 
-.fon, .fon-about, .fon-portfolio {
+.fon, .fon-about, .fon-portfolio, .fon-blog {
   background-color: #ebebf4;
   position: absolute;
   z-index: -1;
@@ -107,7 +107,7 @@ header {
   .header-big__logotype {
     display: flex;
     padding: 0; }
-    .header-big__logotype a, .header-big__logotype i, .header-big__logotype .about-block-right__text-about_span-about {
+    .header-big__logotype a, .header-big__logotype i, .header-big__logotype .about-block-right__text-about_span-about, .header-big__logotype .block-blog__info-blog_link-blog {
       font-size: 20px; }
   .header-big__menu {
     width: 49%;
@@ -116,15 +116,15 @@ header {
     text-decoration: none;
     margin-bottom: 2px;
     padding: 66px 0 0 0; }
-    .header-big__menu_link-group a, .header-big__menu_link-group i, .header-big__menu_link-group .about-block-right__text-about_span-about {
+    .header-big__menu_link-group a, .header-big__menu_link-group i, .header-big__menu_link-group .about-block-right__text-about_span-about, .header-big__menu_link-group .block-blog__info-blog_link-blog {
       padding: 0px 4px; }
-      .header-big__menu_link-group a:hover, .header-big__menu_link-group i:hover, .header-big__menu_link-group .about-block-right__text-about_span-about:hover {
+      .header-big__menu_link-group a:hover, .header-big__menu_link-group i:hover, .header-big__menu_link-group .about-block-right__text-about_span-about:hover, .header-big__menu_link-group .block-blog__info-blog_link-blog:hover {
         border-bottom: 3px solid #d6af18; }
 
 /* for border in menu */
 .selected {
   border-bottom: 3px solid #d6af18; }
-  .selected a, .selected i, .selected .about-block-right__text-about_span-about {
+  .selected a, .selected i, .selected .about-block-right__text-about_span-about, .selected .block-blog__info-blog_link-blog {
     border-bottom: 3px solid #d6af18; }
 
 /* byrger-menu start*/
@@ -180,10 +180,10 @@ header {
     display: none;
     height: 100vh;
     padding-left: 0; }
-    .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group i, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about {
+    .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group i, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link-blog {
       padding: 0px 4px;
       color: #ebebf4; }
-      .gambyrger-menu__gambyrger-list_link-group a:hover, .gambyrger-menu__gambyrger-list_link-group i:hover, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about:hover {
+      .gambyrger-menu__gambyrger-list_link-group a:hover, .gambyrger-menu__gambyrger-list_link-group i:hover, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about:hover, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link-blog:hover {
         border-bottom: 3px solid #d6af18;
         color: #8e86ac; }
 
@@ -363,9 +363,9 @@ section-2 {
       .about-block-right__button-about_btn:hover {
         background-color: #ffffff;
         border: 1px solid #431c43; }
-      .about-block-right__button-about_btn a, .about-block-right__button-about_btn i, .about-block-right__button-about_btn .about-block-right__text-about_span-about {
+      .about-block-right__button-about_btn a, .about-block-right__button-about_btn i, .about-block-right__button-about_btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .block-blog__info-blog_link-blog {
         color: #ffffff; }
-        .about-block-right__button-about_btn a:hover, .about-block-right__button-about_btn i:hover, .about-block-right__button-about_btn .about-block-right__text-about_span-about:hover {
+        .about-block-right__button-about_btn a:hover, .about-block-right__button-about_btn i:hover, .about-block-right__button-about_btn .about-block-right__text-about_span-about:hover, .about-block-right__button-about_btn .block-blog__info-blog_link-blog:hover {
           color: #875c78; }
 
 .topic {
@@ -463,13 +463,18 @@ section-3 {
   margin-top: 277px; }
 
 section-4 {
-  display: flex; }
+  display: flex;
+  padding-bottom: 100px; }
 
 .myBlog-title {
   width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 20px; }
+  .myBlog-title__topic-blog {
+    margin-top: 64px;
+    margin-bottom: 38px; }
   .myBlog-title__topic-text {
     font-size: 25px;
     width: 40%;
@@ -484,16 +489,18 @@ section-4 {
 .block-blog {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   padding-left: 0;
   padding-right: 0; }
   .block-blog__info-blog {
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    padding: 28px 20px 74px 20px; }
+    padding: 22px 37px 45px 37px; }
     .block-blog__info-blog_topic-info {
-      justify-content: center;
       display: flex;
-      margin-bottom: 50px;
+      justify-content: start;
+      margin-bottom: 85px;
       font-family: 'Archivo Narrow', sans-serif;
       font-size: 22px;
       font-weight: 400;
@@ -501,21 +508,40 @@ section-4 {
     .block-blog__info-blog_text-info_span-blog {
       display: none; }
     .block-blog__info-blog_link-blog {
-      color: #431c43;
+      color: #d6af18;
       margin-top: 16px; }
 
 .blog-left {
-  margin-left: -120px;
-  margin-right: 15px; }
+  margin-left: -146px;
+  margin-right: 30px; }
 
 .blog-center {
-  margin-left: 15px;
-  margin-right: 15px; }
+  margin: 80px 30px 0 30px; }
+
+.fotoBlog-center, .info-center {
+  box-shadow: 0px 0px 80.36px 1.64px rgba(43, 46, 102, 0.2); }
 
 .blog-right {
-  margin-right: -60px;
-  margin-left: 15px; }
+  margin-right: -94px;
+  margin-left: 30px; }
 
+.fon-blog {
+  background-color: #fafafd;
+  width: 100%;
+  height: 96vh;
+  margin-bottom: 100px;
+  left: 0; }
+
+/* .bg {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 80.36px 1.64px rgba(43, 46, 102, 0.2);
+  position: absolute;
+  left: 575px;
+  top: 3537px;
+  width: 450px;
+  height: 615px;
+  z-index: 83;
+} */
 /* -------- fonts -------- */
 /* -------- colors -------- */
 /* -------- variables -------- */
