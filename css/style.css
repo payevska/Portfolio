@@ -542,6 +542,10 @@ section-4 {
   height: 615px;
   z-index: 83;
 } */
+section-5 {
+  display: flex;
+  background-color: #431c43; }
+
 /* -------- fonts -------- */
 /* -------- colors -------- */
 /* -------- variables -------- */
