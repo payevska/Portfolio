@@ -2,3 +2,41 @@ section-5 {
 	display: flex;
 	background-color: $purpur;
 }
+
+.footer-wrap {
+    display: flex;
+	&__footer-contact {
+	    display: flex;
+	    flex-direction: column;
+	    color: white;
+	}
+}
+
+.form-contact {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	&__form-title {
+		display: flex;
+    	
+		font-size: 40px;
+		color: $white;
+	}
+	&__form-content {
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+		&_form-name {
+			color: $white;
+		}
+		&_form-email {
+			
+		}
+		&_form-message {
+			
+		}
+		&_form-submit {
+			
+		}
+	}
+}	

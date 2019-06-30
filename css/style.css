@@ -19,8 +19,9 @@
   font-style: normal;
   font-weight: 400; }
 body {
-  font-size: 16px;
   font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   color: #312a31; }
 
 .container {
@@ -87,6 +88,13 @@ button, .main__btn, .about-block-right__button-about_btn {
   z-index: -1;
   width: 100%;
   height: 100%; }
+
+input {
+  border: 1px solid #ffffff;
+  background-color: #431c43; }
+
+input::placeholder {
+  color: #ffffff; }
 
 header {
   width: 100%;
@@ -545,6 +553,28 @@ section-4 {
 section-5 {
   display: flex;
   background-color: #431c43; }
+
+.footer-wrap {
+  display: flex; }
+  .footer-wrap__footer-contact {
+    display: flex;
+    flex-direction: column;
+    color: white; }
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .form-contact__form-title {
+    display: flex;
+    font-size: 40px;
+    color: #ffffff; }
+  .form-contact__form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .form-contact__form-content_form-name {
+      color: #ffffff; }
 
 /* -------- fonts -------- */
 /* -------- colors -------- */

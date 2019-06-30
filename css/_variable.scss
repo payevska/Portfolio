@@ -1,6 +1,9 @@
 body {
-	font-size: 16px;
-	font-family: 'Nunito Sans', sans-serif;
+	font: {
+		family: 'Nunito Sans', sans-serif;
+		size: 16px;
+		weight: $regular;
+	}
 	color: $purpur-dark;
 }
 
@@ -49,9 +52,9 @@ h1 {
 
 h2 {
 	font: {
-			family: 'Judson', serif;
-			size: 40px;
-			weight: $regular;
+		family: 'Judson', serif;
+		size: 40px;
+		weight: $regular;
 	}
 	line-height: 1.1;
 	color: $purpur;	
@@ -59,9 +62,9 @@ h2 {
 
 h3 {
 	font: {
-			family: 'Nunito Sans', sans-serif;
-			size: 24px;
-			weight: $light;
+		family: 'Nunito Sans', sans-serif;
+		size: 24px;
+		weight: $light;
 	}
 	color: $white;	
 }
@@ -92,4 +95,13 @@ button {
     width: 100%;
     height: 100%;
         
+}
+
+input {	
+	border: 1px solid $white;
+	background-color: $purpur;	
+}
+
+input::placeholder  {
+	color: $white;
 }
