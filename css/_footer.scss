@@ -17,26 +17,45 @@ section-5 {
     flex-direction: column;
     align-items: center;
 	&__form-title {
-		display: flex;
-    	
+		
+    	margin-top: 46px;
+	    margin-bottom: 44px;
+	    line-height: 1.1;
 		font-size: 40px;
 		color: $white;
 	}
 	&__form-content {
-		display: flex;
-    	flex-direction: column;
-    	align-items: center;
+	    width: 44%;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+    	
 		&_form-name {
-			color: $white;
+			width: 100%;			
+			margin-bottom: 24px;
+			padding: 10px 0 10px 27px;
 		}
 		&_form-email {
-			
+			width: 100%;
+			margin-bottom: 24px;
+		    padding: 10px 0 10px 27px;
 		}
 		&_form-message {
-			
+			width: 100%;
+			margin-bottom: 42px;
+		    padding: 10px 0 51px 27px;
 		}
 		&_form-submit {
-			
+			margin-bottom: 55px;
+			padding: 18px 68px;
+			@extend button;
+			&:hover {
+				background-color: $purpur;
+				border: 1px solid $white;
+				a {
+					color: $white;
+				}
+			}
 		}
 	}
 }	

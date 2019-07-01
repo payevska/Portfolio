@@ -82,8 +82,8 @@ section-2 {
 			@extend button;		
 			background-color: $purpur;
 			&:hover {
-			background-color: $white;
-			border: 1px solid $purpur;
+				background-color: $white;
+				border: 1px solid $purpur;
 			}
 			a {
 				color: $white;

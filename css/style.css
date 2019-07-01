@@ -27,7 +27,7 @@ body {
 .container {
   padding: 0; }
 
-a, button a, .main__btn a, .about-block-right__button-about_btn a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i, .about-block-right__text-about_span-about, .block-blog__info-blog_link-blog {
+a, button a, .main__btn a, .about-block-right__button-about_btn a, .form-contact__form-content_form-submit a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i, .about-block-right__text-about_span-about, .block-blog__info-blog_link-blog {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -37,6 +37,7 @@ a, button a, .main__btn a, .about-block-right__button-about_btn a, .header-big__
   	color: $purpur-dark;
   } */ }
   a:hover, i:hover, .about-block-right__text-about_span-about:hover, .block-blog__info-blog_link-blog:hover {
+    transition: 2s;
     text-decoration: none;
     color: #875c78; }
   a:active, i:active, .about-block-right__text-about_span-about:active, .block-blog__info-blog_link-blog:active {
@@ -68,16 +69,17 @@ h3, .topic-text {
   font-weight: #fafafd;
   color: #ffffff; }
 
-button, .main__btn, .about-block-right__button-about_btn {
+button, .main__btn, .about-block-right__button-about_btn, .form-contact__form-content_form-submit {
   background-color: #d6af18;
   border-width: 0;
   border-radius: 1px; }
-  button:hover, .main__btn:hover, .about-block-right__button-about_btn:hover {
+  button:hover, .main__btn:hover, .about-block-right__button-about_btn:hover, .form-contact__form-content_form-submit:hover {
     background-color: #431c43;
     transition: 2s; }
-    button:hover a, .main__btn:hover a, .about-block-right__button-about_btn:hover a, button:hover i, .main__btn:hover i, .about-block-right__button-about_btn:hover i, button:hover .about-block-right__text-about_span-about, .main__btn:hover .about-block-right__text-about_span-about, .about-block-right__button-about_btn:hover .about-block-right__text-about_span-about, button:hover .block-blog__info-blog_link-blog, .main__btn:hover .block-blog__info-blog_link-blog, .about-block-right__button-about_btn:hover .block-blog__info-blog_link-blog {
+    button:hover a, .main__btn:hover a, .about-block-right__button-about_btn:hover a, .form-contact__form-content_form-submit:hover a, button:hover i, .main__btn:hover i, .about-block-right__button-about_btn:hover i, .form-contact__form-content_form-submit:hover i, button:hover .about-block-right__text-about_span-about, .main__btn:hover .about-block-right__text-about_span-about, .about-block-right__button-about_btn:hover .about-block-right__text-about_span-about, .form-contact__form-content_form-submit:hover .about-block-right__text-about_span-about, button:hover .block-blog__info-blog_link-blog, .main__btn:hover .block-blog__info-blog_link-blog, .about-block-right__button-about_btn:hover .block-blog__info-blog_link-blog, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link-blog {
+      transition: 2s;
       color: #875c78; }
-  button a, .main__btn a, .about-block-right__button-about_btn a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i, .about-block-right__button-about_btn i, button .about-block-right__text-about_span-about, .main__btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .about-block-right__text-about_span-about, button .block-blog__info-blog_link-blog, .main__btn .block-blog__info-blog_link-blog, .about-block-right__button-about_btn .block-blog__info-blog_link-blog {
+  button a, .main__btn a, .about-block-right__button-about_btn a, .form-contact__form-content_form-submit a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i, .about-block-right__button-about_btn i, .form-contact__form-content_form-submit i, button .about-block-right__text-about_span-about, .main__btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .about-block-right__text-about_span-about, .form-contact__form-content_form-submit .about-block-right__text-about_span-about, button .block-blog__info-blog_link-blog, .main__btn .block-blog__info-blog_link-blog, .about-block-right__button-about_btn .block-blog__info-blog_link-blog, .form-contact__form-content_form-submit .block-blog__info-blog_link-blog {
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
     color: #431c43; }
@@ -90,11 +92,15 @@ button, .main__btn, .about-block-right__button-about_btn {
   height: 100%; }
 
 input {
+  width: 100%;
   border: 1px solid #ffffff;
   background-color: #431c43; }
 
 input::placeholder {
-  color: #ffffff; }
+  display: flex;
+  justify-content: start;
+  color: #ffffff;
+  margin-left: 27px; }
 
 header {
   width: 100%;
@@ -566,15 +572,36 @@ section-5 {
   flex-direction: column;
   align-items: center; }
   .form-contact__form-title {
-    display: flex;
+    margin-top: 46px;
+    margin-bottom: 44px;
+    line-height: 1.1;
     font-size: 40px;
     color: #ffffff; }
   .form-contact__form-content {
+    width: 44%;
     display: flex;
     flex-direction: column;
     align-items: center; }
     .form-contact__form-content_form-name {
-      color: #ffffff; }
+      width: 100%;
+      margin-bottom: 24px;
+      padding: 10px 0 10px 27px; }
+    .form-contact__form-content_form-email {
+      width: 100%;
+      margin-bottom: 24px;
+      padding: 10px 0 10px 27px; }
+    .form-contact__form-content_form-message {
+      width: 100%;
+      margin-bottom: 42px;
+      padding: 10px 0 51px 27px; }
+    .form-contact__form-content_form-submit {
+      margin-bottom: 55px;
+      padding: 18px 68px; }
+      .form-contact__form-content_form-submit:hover {
+        background-color: #431c43;
+        border: 1px solid #ffffff; }
+        .form-contact__form-content_form-submit:hover a, .form-contact__form-content_form-submit:hover i, .form-contact__form-content_form-submit:hover .about-block-right__text-about_span-about, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link-blog {
+          color: #ffffff; }
 
 /* -------- fonts -------- */
 /* -------- colors -------- */

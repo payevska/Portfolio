@@ -21,6 +21,7 @@ a {
 	text-decoration: none;
 	color: $white;
 	&:hover {
+		transition: 2s;
 	    text-decoration: none;
 	    color: $purpur-pink; 
 	}
@@ -77,7 +78,8 @@ button {
 		background-color: $purpur;
 		transition: 2s;
 		a {
-		color: $purpur-pink;
+			transition: 2s;
+			color: $purpur-pink;
 		}		
 	}
 	a {
@@ -97,11 +99,15 @@ button {
         
 }
 
-input {	
+input {
+	width: 100%;	
 	border: 1px solid $white;
 	background-color: $purpur;	
 }
 
 input::placeholder  {
+	display: flex;
+	justify-content: start;
 	color: $white;
+	margin-left: 27px;
 }
