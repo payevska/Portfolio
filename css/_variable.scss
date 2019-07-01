@@ -101,12 +101,15 @@ button {
 input {
 	width: 100%;	
 	border: 1px solid $white;
-	background-color: $purpur;	
+	background-color: $purpur;
+	caret-color: $white;
+	color: $white;	
 }
 
 input::placeholder  {
 	display: flex;
 	justify-content: start;
 	color: $white;
-	margin-left: 27px;
+	opacity: 0.5;
+	margin-left: 27px;	
 }

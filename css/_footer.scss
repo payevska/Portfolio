@@ -21,22 +21,22 @@ section-5 {
 	    flex-direction: column;
 	    align-items: center;    	
 		&_form-name {
-			width: 100%;			
+						
 			margin-bottom: 24px;
 			padding: 10px 0 10px 27px;
 		}
 		&_form-email {
-			width: 100%;
+			
 			margin-bottom: 24px;
 		    padding: 10px 0 10px 27px;
 		}
 		&_form-message {
-			width: 100%;
+			
 			margin-bottom: 42px;
 		    padding: 10px 0 51px 27px;
 		}
 		&_form-submit {
-			margin-bottom: 55px;
+			margin-bottom: 130px;
 			padding: 18px 68px;
 			@extend button;
 			&:hover {
@@ -54,22 +54,35 @@ section-5 {
     display: flex;
     padding: 0;
     color: $white;
+    margin-bottom: 92px;
 	&__footer-contact {
 	    display: flex;
 	    flex-direction: column;
-	    
+	    justify-content: space-between;
 	    padding: 0;
 	    &_logotype-small {
-
+			font-size: 23px;
+			font-weight: $bold;
+			margin-bottom: 36px;
 	    }
 	    &_topic-contact {
-	    	
+    	    
 	    }
 	    &_footer-email {
-	    	
+	    	    margin-bottom: 38px;
+	    	a {
+				@extend a;
+				font-weight: $regular;
+				&:hover {
+		  			border-bottom: none;
+		  			color: $white;
+		  			opacity: 0.5;
+				}				
+			}
 	    }
 	    &_topic-social {
 	    	color: $white;
+	    	margin-bottom: 8px;
 	    }
 	    &_social-veb {
 	    	
@@ -81,13 +94,23 @@ section-5 {
 	    align-items: center;
 		padding: 0;
 		&_title-menu {
-
+			font-size: 24px;
 		}
 		&_vertical-menu {
 		    padding-left: 0;
+		    margin-top: 17px;
 			@extend ul;
 			&_link-group {
-				@extend a;
+				margin-top: 7px;
+				a {
+					@extend a;
+					font-weight: $regular;
+					&:hover {
+			  			border-bottom: none;
+			  			color: $white;
+			  			opacity: 0.5;
+					}				
+				}				
 			}
 		}
 	}
@@ -97,11 +120,18 @@ section-5 {
     	align-items: flex-end;
 		padding: 0;
 		&_twitter-title {
-
+			font-size: 24px;
 		}
 		&_twitter-foto {
+		    width: 51%;
 		    display: flex;
     		flex-direction: column;
+    		margin-top: 20px;
+    		&_rows {
+			    display: flex;
+    			justify-content: space-between;
+    			margin-top: 10px;
+    		}
 		}
 	}
 }
@@ -109,7 +139,10 @@ section-5 {
 .footer-bottom {
     display: flex;
     justify-content: center;
+    font-size: 14px;
 	color: $white;
+	opacity: 0.7;
+	margin-bottom: 45px;
 }
 
 .height-up {

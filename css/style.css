@@ -27,7 +27,7 @@ body {
 .container {
   padding: 0; }
 
-a, button a, .main__btn a, .about-block-right__button-about_btn a, .form-contact__form-content_form-submit a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i, .about-block-right__text-about_span-about, .block-blog__info-blog_link-blog, .footer-wrap__menu-footer_vertical-menu_link-group {
+a, button a, .main__btn a, .about-block-right__button-about_btn a, .form-contact__form-content_form-submit a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i, .about-block-right__text-about_span-about, .block-blog__info-blog_link-blog, .footer-wrap__footer-contact_footer-email a, .footer-wrap__menu-footer_vertical-menu_link-group a {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -36,12 +36,12 @@ a, button a, .main__btn a, .about-block-right__button-about_btn a, .form-contact
   /* &:visited {
   	color: $purpur-dark;
   } */ }
-  a:hover, i:hover, .about-block-right__text-about_span-about:hover, .block-blog__info-blog_link-blog:hover, .footer-wrap__menu-footer_vertical-menu_link-group:hover {
+  a:hover, i:hover, .about-block-right__text-about_span-about:hover, .block-blog__info-blog_link-blog:hover {
     text-decoration: none;
     color: #875c78; }
-  a:active, i:active, .about-block-right__text-about_span-about:active, .block-blog__info-blog_link-blog:active, .footer-wrap__menu-footer_vertical-menu_link-group:active {
+  a:active, i:active, .about-block-right__text-about_span-about:active, .block-blog__info-blog_link-blog:active {
     color: #312a31; }
-  a:focus, i:focus, .about-block-right__text-about_span-about:focus, .block-blog__info-blog_link-blog:focus, .footer-wrap__menu-footer_vertical-menu_link-group:focus {
+  a:focus, i:focus, .about-block-right__text-about_span-about:focus, .block-blog__info-blog_link-blog:focus {
     color: #ebebf4; }
 
 ul, .header-big__menu, .gambyrger-menu__gambyrger-list, .footer-wrap__menu-footer_vertical-menu {
@@ -75,10 +75,10 @@ button, .main__btn, .about-block-right__button-about_btn, .form-contact__form-co
   button:hover, .main__btn:hover, .about-block-right__button-about_btn:hover, .form-contact__form-content_form-submit:hover {
     background-color: #431c43;
     transition: 2s; }
-    button:hover a, .main__btn:hover a, .about-block-right__button-about_btn:hover a, .form-contact__form-content_form-submit:hover a, button:hover i, .main__btn:hover i, .about-block-right__button-about_btn:hover i, .form-contact__form-content_form-submit:hover i, button:hover .about-block-right__text-about_span-about, .main__btn:hover .about-block-right__text-about_span-about, .about-block-right__button-about_btn:hover .about-block-right__text-about_span-about, .form-contact__form-content_form-submit:hover .about-block-right__text-about_span-about, button:hover .block-blog__info-blog_link-blog, .main__btn:hover .block-blog__info-blog_link-blog, .about-block-right__button-about_btn:hover .block-blog__info-blog_link-blog, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link-blog, button:hover .footer-wrap__menu-footer_vertical-menu_link-group, .main__btn:hover .footer-wrap__menu-footer_vertical-menu_link-group, .about-block-right__button-about_btn:hover .footer-wrap__menu-footer_vertical-menu_link-group, .form-contact__form-content_form-submit:hover .footer-wrap__menu-footer_vertical-menu_link-group {
+    button:hover a, .main__btn:hover a, .about-block-right__button-about_btn:hover a, .form-contact__form-content_form-submit:hover a, button:hover i, .main__btn:hover i, .about-block-right__button-about_btn:hover i, .form-contact__form-content_form-submit:hover i, button:hover .about-block-right__text-about_span-about, .main__btn:hover .about-block-right__text-about_span-about, .about-block-right__button-about_btn:hover .about-block-right__text-about_span-about, .form-contact__form-content_form-submit:hover .about-block-right__text-about_span-about, button:hover .block-blog__info-blog_link-blog, .main__btn:hover .block-blog__info-blog_link-blog, .about-block-right__button-about_btn:hover .block-blog__info-blog_link-blog, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link-blog {
       transition: 2s;
       color: #875c78; }
-  button a, .main__btn a, .about-block-right__button-about_btn a, .form-contact__form-content_form-submit a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i, .about-block-right__button-about_btn i, .form-contact__form-content_form-submit i, button .about-block-right__text-about_span-about, .main__btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .about-block-right__text-about_span-about, .form-contact__form-content_form-submit .about-block-right__text-about_span-about, button .block-blog__info-blog_link-blog, .main__btn .block-blog__info-blog_link-blog, .about-block-right__button-about_btn .block-blog__info-blog_link-blog, .form-contact__form-content_form-submit .block-blog__info-blog_link-blog, button .footer-wrap__menu-footer_vertical-menu_link-group, .main__btn .footer-wrap__menu-footer_vertical-menu_link-group, .about-block-right__button-about_btn .footer-wrap__menu-footer_vertical-menu_link-group, .form-contact__form-content_form-submit .footer-wrap__menu-footer_vertical-menu_link-group {
+  button a, .main__btn a, .about-block-right__button-about_btn a, .form-contact__form-content_form-submit a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__btn i, .about-block-right__button-about_btn i, .form-contact__form-content_form-submit i, button .about-block-right__text-about_span-about, .main__btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .about-block-right__text-about_span-about, .form-contact__form-content_form-submit .about-block-right__text-about_span-about, button .block-blog__info-blog_link-blog, .main__btn .block-blog__info-blog_link-blog, .about-block-right__button-about_btn .block-blog__info-blog_link-blog, .form-contact__form-content_form-submit .block-blog__info-blog_link-blog, button .footer-wrap__footer-contact_footer-email a, .footer-wrap__footer-contact_footer-email button a, button .footer-wrap__menu-footer_vertical-menu_link-group a, .footer-wrap__menu-footer_vertical-menu_link-group button a {
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
     color: #431c43; }
@@ -93,12 +93,15 @@ button, .main__btn, .about-block-right__button-about_btn, .form-contact__form-co
 input {
   width: 100%;
   border: 1px solid #ffffff;
-  background-color: #431c43; }
+  background-color: #431c43;
+  caret-color: #ffffff;
+  color: #ffffff; }
 
 input::placeholder {
   display: flex;
   justify-content: start;
   color: #ffffff;
+  opacity: 0.5;
   margin-left: 27px; }
 
 header {
@@ -120,7 +123,7 @@ header {
   .header-big__logotype {
     display: flex;
     padding: 0; }
-    .header-big__logotype a, .header-big__logotype i, .header-big__logotype .about-block-right__text-about_span-about, .header-big__logotype .block-blog__info-blog_link-blog, .header-big__logotype .footer-wrap__menu-footer_vertical-menu_link-group {
+    .header-big__logotype a, .header-big__logotype i, .header-big__logotype .about-block-right__text-about_span-about, .header-big__logotype .block-blog__info-blog_link-blog {
       font-size: 20px; }
   .header-big__menu {
     width: 49%;
@@ -129,15 +132,15 @@ header {
     text-decoration: none;
     margin-bottom: 2px;
     padding: 66px 0 0 0; }
-    .header-big__menu_link-group a, .header-big__menu_link-group i, .header-big__menu_link-group .about-block-right__text-about_span-about, .header-big__menu_link-group .block-blog__info-blog_link-blog, .header-big__menu_link-group .footer-wrap__menu-footer_vertical-menu_link-group {
+    .header-big__menu_link-group a, .header-big__menu_link-group i, .header-big__menu_link-group .about-block-right__text-about_span-about, .header-big__menu_link-group .block-blog__info-blog_link-blog {
       padding: 0px 4px; }
-      .header-big__menu_link-group a:hover, .header-big__menu_link-group i:hover, .header-big__menu_link-group .about-block-right__text-about_span-about:hover, .header-big__menu_link-group .block-blog__info-blog_link-blog:hover, .header-big__menu_link-group .footer-wrap__menu-footer_vertical-menu_link-group:hover {
+      .header-big__menu_link-group a:hover, .header-big__menu_link-group i:hover, .header-big__menu_link-group .about-block-right__text-about_span-about:hover, .header-big__menu_link-group .block-blog__info-blog_link-blog:hover {
         border-bottom: 3px solid #d6af18; }
 
 /* for border in menu */
 .selected {
   border-bottom: 3px solid #d6af18; }
-  .selected a, .selected i, .selected .about-block-right__text-about_span-about, .selected .block-blog__info-blog_link-blog, .selected .footer-wrap__menu-footer_vertical-menu_link-group {
+  .selected a, .selected i, .selected .about-block-right__text-about_span-about, .selected .block-blog__info-blog_link-blog {
     border-bottom: 3px solid #d6af18; }
 
 /* byrger-menu start*/
@@ -193,10 +196,10 @@ header {
     display: none;
     height: 100vh;
     padding-left: 0; }
-    .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group i, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link-blog, .gambyrger-menu__gambyrger-list_link-group .footer-wrap__menu-footer_vertical-menu_link-group {
+    .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group i, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link-blog {
       padding: 0px 4px;
       color: #ebebf4; }
-      .gambyrger-menu__gambyrger-list_link-group a:hover, .gambyrger-menu__gambyrger-list_link-group i:hover, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about:hover, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link-blog:hover, .gambyrger-menu__gambyrger-list_link-group .footer-wrap__menu-footer_vertical-menu_link-group:hover {
+      .gambyrger-menu__gambyrger-list_link-group a:hover, .gambyrger-menu__gambyrger-list_link-group i:hover, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about:hover, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link-blog:hover {
         border-bottom: 3px solid #d6af18;
         color: #8e86ac; }
 
@@ -376,9 +379,9 @@ section-2 {
       .about-block-right__button-about_btn:hover {
         background-color: #ffffff;
         border: 1px solid #431c43; }
-      .about-block-right__button-about_btn a, .about-block-right__button-about_btn i, .about-block-right__button-about_btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .block-blog__info-blog_link-blog, .about-block-right__button-about_btn .footer-wrap__menu-footer_vertical-menu_link-group {
+      .about-block-right__button-about_btn a, .about-block-right__button-about_btn i, .about-block-right__button-about_btn .about-block-right__text-about_span-about, .about-block-right__button-about_btn .block-blog__info-blog_link-blog {
         color: #ffffff; }
-        .about-block-right__button-about_btn a:hover, .about-block-right__button-about_btn i:hover, .about-block-right__button-about_btn .about-block-right__text-about_span-about:hover, .about-block-right__button-about_btn .block-blog__info-blog_link-blog:hover, .about-block-right__button-about_btn .footer-wrap__menu-footer_vertical-menu_link-group:hover {
+        .about-block-right__button-about_btn a:hover, .about-block-right__button-about_btn i:hover, .about-block-right__button-about_btn .about-block-right__text-about_span-about:hover, .about-block-right__button-about_btn .block-blog__info-blog_link-blog:hover {
           color: #875c78; }
 
 .topic {
@@ -576,56 +579,90 @@ section-5 {
     flex-direction: column;
     align-items: center; }
     .form-contact__form-content_form-name {
-      width: 100%;
       margin-bottom: 24px;
       padding: 10px 0 10px 27px; }
     .form-contact__form-content_form-email {
-      width: 100%;
       margin-bottom: 24px;
       padding: 10px 0 10px 27px; }
     .form-contact__form-content_form-message {
-      width: 100%;
       margin-bottom: 42px;
       padding: 10px 0 51px 27px; }
     .form-contact__form-content_form-submit {
-      margin-bottom: 55px;
+      margin-bottom: 130px;
       padding: 18px 68px; }
       .form-contact__form-content_form-submit:hover {
         background-color: #431c43;
         border: 1px solid #ffffff; }
-        .form-contact__form-content_form-submit:hover a, .form-contact__form-content_form-submit:hover i, .form-contact__form-content_form-submit:hover .about-block-right__text-about_span-about, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link-blog, .form-contact__form-content_form-submit:hover .footer-wrap__menu-footer_vertical-menu_link-group {
+        .form-contact__form-content_form-submit:hover a, .form-contact__form-content_form-submit:hover i, .form-contact__form-content_form-submit:hover .about-block-right__text-about_span-about, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link-blog {
           color: #ffffff; }
 
 .footer-wrap {
   display: flex;
   padding: 0;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-bottom: 92px; }
   .footer-wrap__footer-contact {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 0; }
+    .footer-wrap__footer-contact_logotype-small {
+      font-size: 23px;
+      font-weight: 700;
+      margin-bottom: 36px; }
+    .footer-wrap__footer-contact_footer-email {
+      margin-bottom: 38px; }
+      .footer-wrap__footer-contact_footer-email i, .footer-wrap__footer-contact_footer-email .about-block-right__text-about_span-about, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link-blog, .footer-wrap__footer-contact_footer-email a {
+        font-weight: 400; }
+        .footer-wrap__footer-contact_footer-email i:hover, .footer-wrap__footer-contact_footer-email .about-block-right__text-about_span-about:hover, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link-blog:hover, .footer-wrap__footer-contact_footer-email a:hover {
+          border-bottom: none;
+          color: #ffffff;
+          opacity: 0.5; }
     .footer-wrap__footer-contact_topic-social {
-      color: #ffffff; }
+      color: #ffffff;
+      margin-bottom: 8px; }
   .footer-wrap__menu-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0; }
+    .footer-wrap__menu-footer_title-menu {
+      font-size: 24px; }
     .footer-wrap__menu-footer_vertical-menu {
-      padding-left: 0; }
+      padding-left: 0;
+      margin-top: 17px; }
+      .footer-wrap__menu-footer_vertical-menu_link-group {
+        margin-top: 7px; }
+        .footer-wrap__menu-footer_vertical-menu_link-group i, .footer-wrap__menu-footer_vertical-menu_link-group .about-block-right__text-about_span-about, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link-blog, .footer-wrap__menu-footer_vertical-menu_link-group a {
+          font-weight: 400; }
+          .footer-wrap__menu-footer_vertical-menu_link-group i:hover, .footer-wrap__menu-footer_vertical-menu_link-group .about-block-right__text-about_span-about:hover, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link-blog:hover, .footer-wrap__menu-footer_vertical-menu_link-group a:hover {
+            border-bottom: none;
+            color: #ffffff;
+            opacity: 0.5; }
   .footer-wrap__twitter-block {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 0; }
+    .footer-wrap__twitter-block_twitter-title {
+      font-size: 24px; }
     .footer-wrap__twitter-block_twitter-foto {
+      width: 51%;
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      margin-top: 20px; }
+      .footer-wrap__twitter-block_twitter-foto_rows {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px; }
 
 .footer-bottom {
   display: flex;
   justify-content: center;
-  color: #ffffff; }
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 45px; }
 
 /* -------- fonts -------- */
 /* -------- colors -------- */
