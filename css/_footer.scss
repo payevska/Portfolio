@@ -3,21 +3,12 @@ section-5 {
 	background-color: $purpur;
 }
 
-.footer-wrap {
-    display: flex;
-	&__footer-contact {
-	    display: flex;
-	    flex-direction: column;
-	    color: white;
-	}
-}
-
 .form-contact {
 	display: flex;
     flex-direction: column;
     align-items: center;
-	&__form-title {
-		
+    padding: 0;
+	&__form-title {		
     	margin-top: 46px;
 	    margin-bottom: 44px;
 	    line-height: 1.1;
@@ -25,11 +16,10 @@ section-5 {
 		color: $white;
 	}
 	&__form-content {
-	    width: 44%;
+	    width: 43%;
 	    display: flex;
 	    flex-direction: column;
-	    align-items: center;
-    	
+	    align-items: center;    	
 		&_form-name {
 			width: 100%;			
 			margin-bottom: 24px;
@@ -59,3 +49,73 @@ section-5 {
 		}
 	}
 }	
+
+.footer-wrap {
+    display: flex;
+    padding: 0;
+    color: $white;
+	&__footer-contact {
+	    display: flex;
+	    flex-direction: column;
+	    
+	    padding: 0;
+	    &_logotype-small {
+
+	    }
+	    &_topic-contact {
+	    	
+	    }
+	    &_footer-email {
+	    	
+	    }
+	    &_topic-social {
+	    	color: $white;
+	    }
+	    &_social-veb {
+	    	
+	    }
+	}
+	&__menu-footer {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+		padding: 0;
+		&_title-menu {
+
+		}
+		&_vertical-menu {
+		    padding-left: 0;
+			@extend ul;
+			&_link-group {
+				@extend a;
+			}
+		}
+	}
+	&__twitter-block {
+	    display: flex;
+    	flex-direction: column;
+    	align-items: flex-end;
+		padding: 0;
+		&_twitter-title {
+
+		}
+		&_twitter-foto {
+		    display: flex;
+    		flex-direction: column;
+		}
+	}
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+	color: $white;
+}
+
+.height-up {
+	&__circle-wrap {
+		&_arrows {
+
+		}
+	}
+}
