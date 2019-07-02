@@ -1,5 +1,6 @@
 section-5 {
 	display: flex;
+    position: relative;
 	background-color: $purpur;
 }
 
@@ -145,10 +146,34 @@ section-5 {
 	margin-bottom: 45px;
 }
 
-.height-up {
+.button-up {
+    position: absolute;
+    z-index: 3;
+    right: 210px;
 	&__circle-wrap {
-		&_arrows {
-
-		}
+		width: 50px;
+	    background-color: $white;
+	    height: 50px;
+	    border-radius: 25px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
 	}
 }
+
+.circle {
+	    line-height: 0.7;
+}
+
+.lines-footer {
+	position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 37%;
+    border-top: 1px solid $white-opacity;
+    border-bottom: 1px solid $white-opacity;
+    bottom: 104px;
+}
+
+
+
