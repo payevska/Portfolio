@@ -138,6 +138,36 @@ section-5 {
 	}
 }
 
+.block-foto-1 {
+    width: 91%;
+    height: 100%;
+    display: flex;
+}
+
+.foto-1, .foto-2, .foto-3, .foto-4  {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.block-foto-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.block-foto-3 {
+    width: 87%;
+    height: 72%;
+    display: flex;
+}
+
+.block-foto-4 {
+    width: 100%;
+    height: 72%;
+    display: flex;
+}
+
 .footer-bottom {
     display: flex;
     justify-content: center;
