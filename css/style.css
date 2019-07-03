@@ -660,12 +660,17 @@ section-5 {
 .circle {
   line-height: 0.7; }
 
-.lines-footer {
+.line1-footer {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  bottom: 469px; }
+
+.line2-footer {
   position: absolute;
   z-index: 4;
   width: 100%;
-  height: 37%;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   bottom: 104px; }
 
