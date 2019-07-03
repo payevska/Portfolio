@@ -27,7 +27,7 @@ body {
 .container {
   padding: 0; }
 
-a, button a, .main__button-home a, .about-block-right__button-about a, .form-contact__form-content_form-submit a, .button-up__circle-wrap_circle-box a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i, .about-block-right__text-about_span-about, .block-blog__info-blog_link-blog, .footer-wrap__footer-contact_footer-email a, .footer-wrap__menu-footer_vertical-menu_link-group a {
+a, button a, .main__button-home a, .about-block-right__button-about a, .form-contact__form-content_form-submit a, .button-up__circle-wrap_circle-box a, .header-big__logotype a, .header-big__menu_link-group a, .gambyrger-menu__gambyrger-list_link-group a, i, .about-block-right__text-about_span-about, .block-blog__info-blog_link1-blog, .block-blog__info-blog_link2-blog, .block-blog__info-blog_link3-blog, .footer-wrap__footer-contact_footer-email a, .footer-wrap__menu-footer_vertical-menu_link-group a {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -36,12 +36,12 @@ a, button a, .main__button-home a, .about-block-right__button-about a, .form-con
   /* &:visited {
   	color: $purpur-dark;
   } */ }
-  a:hover, i:hover, .about-block-right__text-about_span-about:hover, .block-blog__info-blog_link-blog:hover {
+  a:hover, i:hover, .about-block-right__text-about_span-about:hover, .block-blog__info-blog_link1-blog:hover, .block-blog__info-blog_link2-blog:hover, .block-blog__info-blog_link3-blog:hover {
     text-decoration: none;
     color: #875c78; }
-  a:active, i:active, .about-block-right__text-about_span-about:active, .block-blog__info-blog_link-blog:active {
+  a:active, i:active, .about-block-right__text-about_span-about:active, .block-blog__info-blog_link1-blog:active, .block-blog__info-blog_link2-blog:active, .block-blog__info-blog_link3-blog:active {
     color: #312a31; }
-  a:focus, i:focus, .about-block-right__text-about_span-about:focus, .block-blog__info-blog_link-blog:focus {
+  a:focus, i:focus, .about-block-right__text-about_span-about:focus, .block-blog__info-blog_link1-blog:focus, .block-blog__info-blog_link2-blog:focus, .block-blog__info-blog_link3-blog:focus {
     color: #ebebf4; }
 
 ul, .header-big__menu, .gambyrger-menu__gambyrger-list, .footer-wrap__menu-footer_vertical-menu {
@@ -75,11 +75,11 @@ button, .main__button-home, .about-block-right__button-about, .form-contact__for
   button:hover, .main__button-home:hover, .about-block-right__button-about:hover, .form-contact__form-content_form-submit:hover, .button-up__circle-wrap_circle-box:hover {
     background-color: #431c43;
     transition: 2s; }
-  button a, .main__button-home a, .about-block-right__button-about a, .form-contact__form-content_form-submit a, .button-up__circle-wrap_circle-box a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__button-home i, .about-block-right__button-about i, .form-contact__form-content_form-submit i, .button-up__circle-wrap_circle-box i, button .about-block-right__text-about_span-about, .main__button-home .about-block-right__text-about_span-about, .about-block-right__button-about .about-block-right__text-about_span-about, .form-contact__form-content_form-submit .about-block-right__text-about_span-about, .button-up__circle-wrap_circle-box .about-block-right__text-about_span-about, button .block-blog__info-blog_link-blog, .main__button-home .block-blog__info-blog_link-blog, .about-block-right__button-about .block-blog__info-blog_link-blog, .form-contact__form-content_form-submit .block-blog__info-blog_link-blog, .button-up__circle-wrap_circle-box .block-blog__info-blog_link-blog, button .footer-wrap__footer-contact_footer-email a, .footer-wrap__footer-contact_footer-email button a, button .footer-wrap__menu-footer_vertical-menu_link-group a, .footer-wrap__menu-footer_vertical-menu_link-group button a {
+  button a, .main__button-home a, .about-block-right__button-about a, .form-contact__form-content_form-submit a, .button-up__circle-wrap_circle-box a, button .header-big__logotype a, .header-big__logotype button a, button .header-big__menu_link-group a, .header-big__menu_link-group button a, button .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group button a, button i, .main__button-home i, .about-block-right__button-about i, .form-contact__form-content_form-submit i, .button-up__circle-wrap_circle-box i, button .about-block-right__text-about_span-about, .main__button-home .about-block-right__text-about_span-about, .about-block-right__button-about .about-block-right__text-about_span-about, .form-contact__form-content_form-submit .about-block-right__text-about_span-about, .button-up__circle-wrap_circle-box .about-block-right__text-about_span-about, button .block-blog__info-blog_link1-blog, .main__button-home .block-blog__info-blog_link1-blog, .about-block-right__button-about .block-blog__info-blog_link1-blog, .form-contact__form-content_form-submit .block-blog__info-blog_link1-blog, .button-up__circle-wrap_circle-box .block-blog__info-blog_link1-blog, button .block-blog__info-blog_link2-blog, .main__button-home .block-blog__info-blog_link2-blog, .about-block-right__button-about .block-blog__info-blog_link2-blog, .form-contact__form-content_form-submit .block-blog__info-blog_link2-blog, .button-up__circle-wrap_circle-box .block-blog__info-blog_link2-blog, button .block-blog__info-blog_link3-blog, .main__button-home .block-blog__info-blog_link3-blog, .about-block-right__button-about .block-blog__info-blog_link3-blog, .form-contact__form-content_form-submit .block-blog__info-blog_link3-blog, .button-up__circle-wrap_circle-box .block-blog__info-blog_link3-blog, button .footer-wrap__footer-contact_footer-email a, .footer-wrap__footer-contact_footer-email button a, button .footer-wrap__menu-footer_vertical-menu_link-group a, .footer-wrap__menu-footer_vertical-menu_link-group button a {
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
     color: #431c43; }
-    button a:hover, .main__button-home a:hover, .about-block-right__button-about a:hover, .form-contact__form-content_form-submit a:hover, .button-up__circle-wrap_circle-box a:hover, button i:hover, .main__button-home i:hover, .about-block-right__button-about i:hover, .form-contact__form-content_form-submit i:hover, .button-up__circle-wrap_circle-box i:hover, button .about-block-right__text-about_span-about:hover, .main__button-home .about-block-right__text-about_span-about:hover, .about-block-right__button-about .about-block-right__text-about_span-about:hover, .form-contact__form-content_form-submit .about-block-right__text-about_span-about:hover, .button-up__circle-wrap_circle-box .about-block-right__text-about_span-about:hover, button .block-blog__info-blog_link-blog:hover, .main__button-home .block-blog__info-blog_link-blog:hover, .about-block-right__button-about .block-blog__info-blog_link-blog:hover, .form-contact__form-content_form-submit .block-blog__info-blog_link-blog:hover, .button-up__circle-wrap_circle-box .block-blog__info-blog_link-blog:hover {
+    button a:hover, .main__button-home a:hover, .about-block-right__button-about a:hover, .form-contact__form-content_form-submit a:hover, .button-up__circle-wrap_circle-box a:hover, button i:hover, .main__button-home i:hover, .about-block-right__button-about i:hover, .form-contact__form-content_form-submit i:hover, .button-up__circle-wrap_circle-box i:hover, button .about-block-right__text-about_span-about:hover, .main__button-home .about-block-right__text-about_span-about:hover, .about-block-right__button-about .about-block-right__text-about_span-about:hover, .form-contact__form-content_form-submit .about-block-right__text-about_span-about:hover, .button-up__circle-wrap_circle-box .about-block-right__text-about_span-about:hover, button .block-blog__info-blog_link1-blog:hover, .main__button-home .block-blog__info-blog_link1-blog:hover, .about-block-right__button-about .block-blog__info-blog_link1-blog:hover, .form-contact__form-content_form-submit .block-blog__info-blog_link1-blog:hover, .button-up__circle-wrap_circle-box .block-blog__info-blog_link1-blog:hover, button .block-blog__info-blog_link2-blog:hover, .main__button-home .block-blog__info-blog_link2-blog:hover, .about-block-right__button-about .block-blog__info-blog_link2-blog:hover, .form-contact__form-content_form-submit .block-blog__info-blog_link2-blog:hover, .button-up__circle-wrap_circle-box .block-blog__info-blog_link2-blog:hover, button .block-blog__info-blog_link3-blog:hover, .main__button-home .block-blog__info-blog_link3-blog:hover, .about-block-right__button-about .block-blog__info-blog_link3-blog:hover, .form-contact__form-content_form-submit .block-blog__info-blog_link3-blog:hover, .button-up__circle-wrap_circle-box .block-blog__info-blog_link3-blog:hover {
       color: #875c78;
       transition: 2s; }
 
@@ -123,7 +123,7 @@ header {
   .header-big__logotype {
     display: flex;
     padding: 0; }
-    .header-big__logotype a, .header-big__logotype i, .header-big__logotype .about-block-right__text-about_span-about, .header-big__logotype .block-blog__info-blog_link-blog {
+    .header-big__logotype a, .header-big__logotype i, .header-big__logotype .about-block-right__text-about_span-about, .header-big__logotype .block-blog__info-blog_link1-blog, .header-big__logotype .block-blog__info-blog_link2-blog, .header-big__logotype .block-blog__info-blog_link3-blog {
       font-size: 20px; }
   .header-big__menu {
     width: 49%;
@@ -132,15 +132,15 @@ header {
     text-decoration: none;
     margin-bottom: 2px;
     padding: 66px 0 0 0; }
-    .header-big__menu_link-group a, .header-big__menu_link-group i, .header-big__menu_link-group .about-block-right__text-about_span-about, .header-big__menu_link-group .block-blog__info-blog_link-blog {
+    .header-big__menu_link-group a, .header-big__menu_link-group i, .header-big__menu_link-group .about-block-right__text-about_span-about, .header-big__menu_link-group .block-blog__info-blog_link1-blog, .header-big__menu_link-group .block-blog__info-blog_link2-blog, .header-big__menu_link-group .block-blog__info-blog_link3-blog {
       padding: 0px 4px; }
-      .header-big__menu_link-group a:hover, .header-big__menu_link-group i:hover, .header-big__menu_link-group .about-block-right__text-about_span-about:hover, .header-big__menu_link-group .block-blog__info-blog_link-blog:hover {
+      .header-big__menu_link-group a:hover, .header-big__menu_link-group i:hover, .header-big__menu_link-group .about-block-right__text-about_span-about:hover, .header-big__menu_link-group .block-blog__info-blog_link1-blog:hover, .header-big__menu_link-group .block-blog__info-blog_link2-blog:hover, .header-big__menu_link-group .block-blog__info-blog_link3-blog:hover {
         border-bottom: 3px solid #d6af18; }
 
 /* for border in menu */
 .selected {
   border-bottom: 3px solid #d6af18; }
-  .selected a, .selected i, .selected .about-block-right__text-about_span-about, .selected .block-blog__info-blog_link-blog {
+  .selected a, .selected i, .selected .about-block-right__text-about_span-about, .selected .block-blog__info-blog_link1-blog, .selected .block-blog__info-blog_link2-blog, .selected .block-blog__info-blog_link3-blog {
     border-bottom: 3px solid #d6af18; }
 
 /* byrger-menu start*/
@@ -196,10 +196,10 @@ header {
     display: none;
     height: 100vh;
     padding-left: 0; }
-    .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group i, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link-blog {
+    .gambyrger-menu__gambyrger-list_link-group a, .gambyrger-menu__gambyrger-list_link-group i, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link1-blog, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link2-blog, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link3-blog {
       padding: 0px 4px;
       color: #ebebf4; }
-      .gambyrger-menu__gambyrger-list_link-group a:hover, .gambyrger-menu__gambyrger-list_link-group i:hover, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about:hover, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link-blog:hover {
+      .gambyrger-menu__gambyrger-list_link-group a:hover, .gambyrger-menu__gambyrger-list_link-group i:hover, .gambyrger-menu__gambyrger-list_link-group .about-block-right__text-about_span-about:hover, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link1-blog:hover, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link2-blog:hover, .gambyrger-menu__gambyrger-list_link-group .block-blog__info-blog_link3-blog:hover {
         border-bottom: 3px solid #d6af18;
         color: #8e86ac; }
 
@@ -352,9 +352,9 @@ section-2 {
     .about-block-right__button-about:hover {
       background-color: #ffffff;
       border: 1px solid #431c43; }
-    .about-block-right__button-about a, .about-block-right__button-about i, .about-block-right__button-about .about-block-right__text-about_span-about, .about-block-right__button-about .block-blog__info-blog_link-blog {
+    .about-block-right__button-about a, .about-block-right__button-about i, .about-block-right__button-about .about-block-right__text-about_span-about, .about-block-right__button-about .block-blog__info-blog_link1-blog, .about-block-right__button-about .block-blog__info-blog_link2-blog, .about-block-right__button-about .block-blog__info-blog_link3-blog {
       color: #ffffff; }
-      .about-block-right__button-about a:hover, .about-block-right__button-about i:hover, .about-block-right__button-about .about-block-right__text-about_span-about:hover, .about-block-right__button-about .block-blog__info-blog_link-blog:hover {
+      .about-block-right__button-about a:hover, .about-block-right__button-about i:hover, .about-block-right__button-about .about-block-right__text-about_span-about:hover, .about-block-right__button-about .block-blog__info-blog_link1-blog:hover, .about-block-right__button-about .block-blog__info-blog_link2-blog:hover, .about-block-right__button-about .block-blog__info-blog_link3-blog:hover {
         color: #875c78; }
     .about-block-right__button-about_btn {
       padding: 20px 54px; }
@@ -496,11 +496,12 @@ section-4 {
       font-size: 22px;
       font-weight: 400;
       color: #431c43; }
-    .block-blog__info-blog_text-info_span-blog {
-      display: none; }
-    .block-blog__info-blog_link-blog {
+    .block-blog__info-blog_link1-blog, .block-blog__info-blog_link2-blog, .block-blog__info-blog_link3-blog {
       color: #d6af18;
       margin-top: 16px; }
+
+#span1, #span2, #span3 {
+  display: none; }
 
 .blog-left {
   margin-left: -146px;
@@ -523,16 +524,6 @@ section-4 {
   margin-bottom: 100px;
   left: 0; }
 
-/* .bg {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 80.36px 1.64px rgba(43, 46, 102, 0.2);
-  position: absolute;
-  left: 575px;
-  top: 3537px;
-  width: 450px;
-  height: 615px;
-  z-index: 83;
-} */
 section-5 {
   display: flex;
   position: relative;
@@ -570,7 +561,7 @@ section-5 {
       .form-contact__form-content_form-submit:hover {
         background-color: #431c43;
         border: 1px solid #ffffff; }
-        .form-contact__form-content_form-submit:hover a, .form-contact__form-content_form-submit:hover i, .form-contact__form-content_form-submit:hover .about-block-right__text-about_span-about, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link-blog {
+        .form-contact__form-content_form-submit:hover a, .form-contact__form-content_form-submit:hover i, .form-contact__form-content_form-submit:hover .about-block-right__text-about_span-about, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link1-blog, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link2-blog, .form-contact__form-content_form-submit:hover .block-blog__info-blog_link3-blog {
           color: #ffffff; }
 
 .footer-wrap {
@@ -589,9 +580,9 @@ section-5 {
       margin-bottom: 36px; }
     .footer-wrap__footer-contact_footer-email {
       margin-bottom: 38px; }
-      .footer-wrap__footer-contact_footer-email i, .footer-wrap__footer-contact_footer-email .about-block-right__text-about_span-about, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link-blog, .footer-wrap__footer-contact_footer-email a {
+      .footer-wrap__footer-contact_footer-email i, .footer-wrap__footer-contact_footer-email .about-block-right__text-about_span-about, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link1-blog, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link2-blog, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link3-blog, .footer-wrap__footer-contact_footer-email a {
         font-weight: 400; }
-        .footer-wrap__footer-contact_footer-email i:hover, .footer-wrap__footer-contact_footer-email .about-block-right__text-about_span-about:hover, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link-blog:hover, .footer-wrap__footer-contact_footer-email a:hover {
+        .footer-wrap__footer-contact_footer-email i:hover, .footer-wrap__footer-contact_footer-email .about-block-right__text-about_span-about:hover, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link1-blog:hover, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link2-blog:hover, .footer-wrap__footer-contact_footer-email .block-blog__info-blog_link3-blog:hover, .footer-wrap__footer-contact_footer-email a:hover {
           border-bottom: none;
           color: #ffffff;
           opacity: 0.5; }
@@ -610,9 +601,9 @@ section-5 {
       margin-top: 17px; }
       .footer-wrap__menu-footer_vertical-menu_link-group {
         margin-top: 7px; }
-        .footer-wrap__menu-footer_vertical-menu_link-group i, .footer-wrap__menu-footer_vertical-menu_link-group .about-block-right__text-about_span-about, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link-blog, .footer-wrap__menu-footer_vertical-menu_link-group a {
+        .footer-wrap__menu-footer_vertical-menu_link-group i, .footer-wrap__menu-footer_vertical-menu_link-group .about-block-right__text-about_span-about, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link1-blog, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link2-blog, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link3-blog, .footer-wrap__menu-footer_vertical-menu_link-group a {
           font-weight: 400; }
-          .footer-wrap__menu-footer_vertical-menu_link-group i:hover, .footer-wrap__menu-footer_vertical-menu_link-group .about-block-right__text-about_span-about:hover, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link-blog:hover, .footer-wrap__menu-footer_vertical-menu_link-group a:hover {
+          .footer-wrap__menu-footer_vertical-menu_link-group i:hover, .footer-wrap__menu-footer_vertical-menu_link-group .about-block-right__text-about_span-about:hover, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link1-blog:hover, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link2-blog:hover, .footer-wrap__menu-footer_vertical-menu_link-group .block-blog__info-blog_link3-blog:hover, .footer-wrap__menu-footer_vertical-menu_link-group a:hover {
             border-bottom: none;
             color: #ffffff;
             opacity: 0.5; }
@@ -644,7 +635,8 @@ section-5 {
 .button-up {
   position: absolute;
   z-index: 3;
-  right: 210px; }
+  right: 215px;
+  top: 466px; }
   .button-up__circle-wrap_circle-box {
     width: 50px;
     background-color: #ffffff;

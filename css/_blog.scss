@@ -54,16 +54,18 @@ section-4 {
 			color: $purpur;	
     	}
     	&_text-info {
-			&_span-blog {
-				display: none;
-			}
+			
     	}
-    	&_link-blog {
+    	&_link1-blog, &_link2-blog, &_link3-blog {
     		@extend a;
 			color: $yellow;
 			margin-top: 16px;
     	}
     }
+}
+
+#span1, #span2, #span3 {
+	display: none;
 }
 
 .blog-left {
@@ -94,13 +96,3 @@ section-4 {
     left: 0;
 }
 
-/* .bg {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 80.36px 1.64px rgba(43, 46, 102, 0.2);
-  position: absolute;
-  left: 575px;
-  top: 3537px;
-  width: 450px;
-  height: 615px;
-  z-index: 83;
-} */
