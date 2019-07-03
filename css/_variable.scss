@@ -76,10 +76,10 @@ button {
 	&:hover {
 		background-color: $purpur;
 		transition: 2s;
-		a {
-			transition: 2s;
-			color: $purpur-pink;
-		}		
+		/* a {
+					transition: 2s;
+					color: $purpur-pink;
+				} */		
 	}
 	a {
 		@extend a;

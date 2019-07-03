@@ -151,13 +151,29 @@ section-5 {
     z-index: 3;
     right: 210px;
 	&__circle-wrap {
-		width: 50px;
-	    background-color: $white;
-	    height: 50px;
-	    border-radius: 25px;
-	    display: flex;
-	    justify-content: center;
-	    align-items: center;
+		@extend a;
+		    &:hover {
+			    background-color: $yellow;			    
+		    }
+		/* @extend button;
+		    &:hover {
+			    background-color: $yellow;
+			    cursor: pointer;
+		    } */
+		&_circle-box {
+			width: 50px;
+		    background-color: $white;
+		    height: 50px;
+		    border-radius: 25px;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    @extend button;
+		    &:hover {
+			    background-color: $yellow;
+			    cursor: pointer;
+		    }	    	    
+		}
 	}
 }
 

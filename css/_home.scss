@@ -47,7 +47,7 @@ section-1 {
 	@extend h3;
 }
 
-/* --------- scroll mouse start -------- */
+/* --------- bottom-bg start -------- */
 .bottom-bg {
 	display: flex;
 	&__scroll-arrow {
@@ -63,6 +63,7 @@ section-1 {
 			display: flex;
 			justify-content: space-between;
 		    align-items: center;
+		    margin-top: 4px;
 		}
 	}
 }
@@ -73,50 +74,10 @@ i {
 	font-size: 1.6em;			
 }
 
-
-
 #scroll-home {
     display: flex;
     flex-direction: column;   
-	margin: 20px 0 30px;
-  }
+	margin: 30px 0 30px;
+} 
 
-#mice span {  
-  width: 21px;
-  height: 21px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-  transform: rotate(45deg);
-  
-  /* margin: 5px 0 3px 6px; */
-}
-
-.unu {
-  
-  border-right: 1px solid $yellow;
-  border-bottom: 1px solid $yellow;
-}
-
-.unu, .doi {
-    -webkit-animation: mouse-scroll 1s infinite;
-    -moz-animation: mouse-scroll 1s infinite;
-}
-
-.unu {
-
-  -webkit-animation-delay: .1s;
-  -moz-animation-delay: .1s;
-  -webkit-animation-direction: alternate;
-}
-
-.doi {
-  -webkit-animation-delay: .2s;
-  -moz-animation-delay: .2s;
-  -webkit-animation-direction: alternate;
-  border-right: 1px solid $purpur-extra-light;
-  border-bottom: 1px solid $purpur-extra-light;
-  margin-top: -12px;
-}
-
-
-/* --------- scroll mouse finish -------- */
+/* --------- bottom-bg finish -------- */
