@@ -40,6 +40,7 @@ section-5 {
 			margin-bottom: 130px;
 			padding: 18px 68px;
 			@extend button;
+			border: 1px solid $yellow;
 			&:hover {
 				background-color: $purpur;
 				border: 1px solid $white;
@@ -151,15 +152,7 @@ section-5 {
     z-index: 3;
     right: 210px;
 	&__circle-wrap {
-		@extend a;
-		    &:hover {
-			    background-color: $yellow;			    
-		    }
-		/* @extend button;
-		    &:hover {
-			    background-color: $yellow;
-			    cursor: pointer;
-		    } */
+		
 		&_circle-box {
 			width: 50px;
 		    background-color: $white;

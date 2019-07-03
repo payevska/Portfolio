@@ -31,9 +31,12 @@ section-1 {
 	&__block-topic {
 
 	}	
-	&__btn {
-		padding: 20px 69px;
+	&__button-home {
+		display: flex;		
 		@extend button;
+		&_btn {
+			padding: 20px 69px;
+		}
 	}
 }
 
