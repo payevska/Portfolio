@@ -589,6 +589,10 @@ section-5 {
     .footer-wrap__footer-contact_topic-social {
       color: #ffffff;
       margin-bottom: 8px; }
+    .footer-wrap__footer-contact_social-veb {
+      width: 28%;
+      display: flex;
+      justify-content: space-between; }
   .footer-wrap__menu-footer {
     display: flex;
     flex-direction: column;

@@ -87,7 +87,9 @@ section-5 {
 	    	margin-bottom: 8px;
 	    }
 	    &_social-veb {
-	    	
+		    width: 28%;
+		    display: flex;
+		    justify-content: space-between;
 	    }
 	}
 	&__menu-footer {
